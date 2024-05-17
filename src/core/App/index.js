@@ -1,30 +1,20 @@
-import { Header } from "../../futures/personalHomepage/PersonalHomepage/Header";
-import { Section } from "../../common/Section";
-import { Footer } from "../../futures/personalHomepage/PersonalHomepage/Footer";
-import { Mode } from "../../futures/personalHomepage/PersonalHomepage/Mode"
+import { ThemeProvider } from "styled-components";
+import { themeDark, themeLight } from "./theme";
+import { Normalize } from "styled-normalize";
+import GlobalStyle from "./GlobalStyle";
+import { PersonalHomepage } from "../../futures/personalHomepage/PersonalHomepage";
+import { useSelector } from "react-redux";
+import { selectMode } from "../../common/Mode/themeSlice";
 
 const App = () => {
-  
+  const mode = useSelector(selectMode);
   return (
-    <>
-      <Mode />
-      <Header>
-        header
-      </Header>
-      <Section title="My skillset includes">
-        section: My skillset includes
-      </Section>
-      <Section title="What I want to learn next">
-        section: What I want to learn next
-      </Section>
-      <Section title="Portfolio">
-        section: Portfolio
-      </Section>
-      <Footer>
-        footer
-      </Footer>
-    </>
-  )
-}
+    <ThemeProvider theme={mode === "dark" ? themeDark : themeLight}>
+      <Normalize />
+      <GlobalStyle />
+      <PersonalHomepage />
+    </ThemeProvider>
+  );
+};
 
 export default App;
