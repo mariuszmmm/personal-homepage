@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { ModeContainer, ModeInfo, Icon, Switch, WrapperIcon } from "./styled";
+import { ModeContainer, ModeInfo, Icon, Switch, IconWrapper } from "./styled";
 import { selectMode, switchMode } from "./themeSlice";
 
 export const Mode = () => {
@@ -10,9 +10,9 @@ export const Mode = () => {
     <ModeContainer onClick={() => dispatch(switchMode())}>
       <ModeInfo>dark mode {mode === "dark" ? "on" : "off"}</ModeInfo>
       <Switch>
-        <WrapperIcon moveToRight={mode === "dark"}>
+        <IconWrapper moveToRight={mode === "dark"}>
           <Icon />
-        </WrapperIcon>
+        </IconWrapper>
       </Switch>
     </ModeContainer>
   );

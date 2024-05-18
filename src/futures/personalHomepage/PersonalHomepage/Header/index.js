@@ -1,5 +1,16 @@
-import styled from "styled-components";
+import { HeaderWrapper, Image } from "./styled";
+import foto from "./foto.jpg";
+export const Header = () => {
+  return (
+    <HeaderWrapper>
+      <Image src={foto}  />
+      <Content>
+      <ThisIs />
+      <Name>Mariusz Matusiewicz</Name>
+      <Description>
 
-export const Header = styled.header`
-    
-`;
+      </Description>
+      </Content>
+    </HeaderWrapper>
+  );
+};

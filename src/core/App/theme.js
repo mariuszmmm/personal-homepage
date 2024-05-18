@@ -11,20 +11,22 @@ const colorNames = {
   test: "yellow",
 };
 
-const fontWeight = {
-  thin: 100,
-  extraLight: 200,
-  light: 300,
-  normal: 400, // użyty
-  medium: 500,
-  semiBold: 600,
-  bold: 700, // użyty
-  extraBold: 800,
-  heavy: 900,
+const common = {
+  fontWeight: {
+    thin: 100,
+    extraLight: 200,
+    light: 300,
+    normal: 400, // użyty
+    medium: 500,
+    semiBold: 600,
+    bold: 700, // użyty
+    extraBold: 800,
+    heavy: 900,
+  },
 };
 
 export const themeLight = {
-  ...fontWeight,
+  ...common,
   page: {
     color: colorNames.slateGray,
     backgroundColor: colorNames.whiteLilac,
@@ -38,7 +40,7 @@ export const themeLight = {
 };
 
 export const themeDark = {
-  ...fontWeight,
+  ...common,
   page: {
     color: colorNames.white,
     backgroundColor: colorNames.mineShaf,

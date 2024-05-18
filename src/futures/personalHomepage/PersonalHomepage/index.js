@@ -12,7 +12,7 @@ export const PersonalHomepage = () => {
   return (
     <Wrapper>
       <Mode />
-      <Header>header</Header>
+      <Header />
       <Section title="My skillset includes">
         section: My skillset includes
       </Section>

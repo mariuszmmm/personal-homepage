@@ -1,16 +1,20 @@
 import styled, { css } from "styled-components";
 import { ReactComponent as SunIcon } from "./sunIcon.svg";
 
-export const ModeContainer = styled.div`
+export const ModeContainer = styled.button`
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   align-items: center;
   gap: 12px;
   min-width: max-content;
-  position: absolute;
   right: 17px;
+  position: absolute;
   cursor: pointer;
+  background: none;
+  border: none;
+  color: inherit;
 
+  &:focus,
   &:hover {
     outline: 1px solid currentColor;
     outline-offset: 6px;
@@ -20,7 +24,7 @@ export const ModeContainer = styled.div`
 export const ModeInfo = styled.span`
   text-transform: uppercase;
   color: ${({ theme }) => theme.switchColor};
-  font-weight: ${({ theme }) => theme.mode.bold};
+  font-weight: ${({ theme }) => theme.fontWeight.bold};
   font-size: 12px;
   inline-size: 0.3;
 `;
@@ -36,7 +40,7 @@ export const Switch = styled.div`
   border-radius: 13px;
 `;
 
-export const WrapperIcon = styled.div`
+export const IconWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
