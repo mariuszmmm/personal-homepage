@@ -3,7 +3,6 @@ import { ReactComponent as SunIcon } from "./sunIcon.svg";
 
 export const ModeContainer = styled.button`
   display: flex;
-  /* justify-content: flex-end; */
   align-items: center;
   gap: 12px;
   min-width: max-content;

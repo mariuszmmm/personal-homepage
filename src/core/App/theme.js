@@ -1,12 +1,16 @@
 const colorNames = {
-  white: "FFFFFF",
+  white: "#FFFFFF",
   whiteLilac: "#FBFBFE",
   slateGray: "#6E7E91",
-  iron: "rgba(209, 213, 218, 0.3)",
-  mercury: "#E5E5E5",
-  white: "#FFFFFF",
+  iron: "#D1D5DA4D",
+  // mercury: "#E5E5E5",
   mineShaf: "#252525",
   mineShaf_2: "#666666",
+  scienceBlue: "#0366D6",
+  dodgerBlue: "#2188FF",
+  anakiwa: "#8CC2FF",
+  shipCove: "#6D93BE",
+  parsley: "#14462033",
 
   test: "yellow",
 };
@@ -18,10 +22,10 @@ const common = {
     light: 300,
     normal: 400, // użyty
     medium: 500,
-    semiBold: 600,
+    semiBold: 600, //użyty
     bold: 700, // użyty
     extraBold: 800,
-    heavy: 900,
+    heavy: 900, //użyty
   },
 };
 
@@ -37,6 +41,16 @@ export const themeLight = {
       backgroundColor: colorNames.iron,
     },
   },
+  title: {
+    color: colorNames.mineShaf,
+  },
+  button: {
+    backgroundColor: colorNames.scienceBlue,
+    color: colorNames.white,
+    borderColor: colorNames.iron,
+    focusShadowColor: colorNames.anakiwa,
+    selectedShadowColor: colorNames.parsley,
+  },
 };
 
 export const themeDark = {
@@ -50,5 +64,12 @@ export const themeDark = {
       color: colorNames.mineShaf,
       backgroundColor: colorNames.mineShaf_2,
     },
+  },
+  button: {
+    backgroundColor: colorNames.dodgerBlue,
+    color: colorNames.white,
+    borderColor: colorNames.iron,
+    focusShadowColor: colorNames.shipCove,
+    selectedShadowColor: colorNames.parsley,
   },
 };
