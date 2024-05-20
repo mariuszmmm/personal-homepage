@@ -27,6 +27,14 @@ const common = {
     extraBold: 800,
     heavy: 900, //użyty
   },
+  breakpoints: {
+    xs: 0,
+    sm: 576, //użyty
+    md: 768, //użyty
+    lg: 992,  //użyty
+    xl: 1200,
+    xxl: 1400,
+  },
 };
 
 export const themeLight = {

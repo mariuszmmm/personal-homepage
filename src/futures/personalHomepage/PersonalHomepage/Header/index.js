@@ -7,11 +7,11 @@ import {
   Description,
   Icon,
   Button,
+  MessageIcon,
 } from "./styled";
 import foto from "./foto.jpg";
 import face from "./face.png";
 import laptop from "./laptop.png";
-import { ReactComponent as Message } from "./message.svg";
 export const Header = () => {
   return (
     <HeaderWrapper>
@@ -26,7 +26,7 @@ export const Header = () => {
           additional work.
         </Description>
         <Button>
-          <Message /> Hire Me
+          <MessageIcon /> Hire Me
         </Button>
       </Content>
     </HeaderWrapper>

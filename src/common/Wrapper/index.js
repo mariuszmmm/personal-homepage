@@ -1,11 +1,17 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  max-width: 1216px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
   margin: 119px auto 109px;
-  position: relative;
+  padding: 0 32px;
 
-  @media (max-width: 767px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.lg}px) {
     margin: 34px auto 31px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.md}px) {
+    padding: 0 16px;
   }
 `;

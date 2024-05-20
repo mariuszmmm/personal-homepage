@@ -8,7 +8,7 @@ import { selectMode } from "../../../common/Mode/themeSlice";
 
 export const PersonalHomepage = () => {
   const mode = useSelector(selectMode);
-  console.log(mode);
+
   return (
     <Wrapper>
       <Mode />

@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${({ theme }) => theme.page.backgroundColor};
     font-weight: ${({ theme }) => theme.page.normal};
     max-width: 1920px;
+    min-width: 320px;
     transition: background 0.5s ease-in-out;
   };
 `;

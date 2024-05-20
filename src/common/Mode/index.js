@@ -10,7 +10,7 @@ export const Mode = () => {
     <ModeContainer onClick={() => dispatch(switchMode())}>
       <ModeInfo>dark mode {mode === "dark" ? "on" : "off"}</ModeInfo>
       <Switch>
-        <IconWrapper moveToRight={mode === "dark"}>
+        <IconWrapper $moveToRight={mode === "dark"}>
           <Icon />
         </IconWrapper>
       </Switch>

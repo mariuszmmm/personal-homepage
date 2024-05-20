@@ -4,19 +4,23 @@ import { ReactComponent as SunIcon } from "./sunIcon.svg";
 export const ModeContainer = styled.button`
   display: flex;
   align-items: center;
+  align-self: flex-end;
   gap: 12px;
   min-width: max-content;
-  right: 17px;
-  position: absolute;
   cursor: pointer;
   background: none;
   border: none;
   color: inherit;
+  padding: 0;
 
   &:focus,
   &:hover {
     outline: 1px solid currentColor;
     outline-offset: 6px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.lg}px) {
+    transform: translateY(-13px);
   }
 `;
 
@@ -26,6 +30,10 @@ export const ModeInfo = styled.span`
   font-weight: ${({ theme }) => theme.fontWeight.bold};
   font-size: 12px;
   inline-size: 0.3;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.sm}px) {
+    display: none;
+  }
 `;
 
 export const Switch = styled.div`
@@ -49,8 +57,8 @@ export const IconWrapper = styled.div`
   border-radius: 50%;
   transition: transform 0.5s ease-in-out;
 
-  ${({ moveToRight }) =>
-    moveToRight &&
+  ${({ $moveToRight }) =>
+    $moveToRight &&
     css`
       transform: translateX(20px) rotate(180deg);
     `}
