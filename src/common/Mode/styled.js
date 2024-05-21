@@ -12,6 +12,7 @@ export const ModeContainer = styled.button`
   border: none;
   color: inherit;
   padding: 0;
+  z-index: 1;
 
   &:focus,
   &:hover {
@@ -19,7 +20,7 @@ export const ModeContainer = styled.button`
     outline-offset: 6px;
   }
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.lg}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     transform: translateY(-13px);
   }
 `;
@@ -31,7 +32,7 @@ export const ModeInfo = styled.span`
   font-size: 12px;
   inline-size: 0.3;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.sm}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}px) {
     display: none;
   }
 `;

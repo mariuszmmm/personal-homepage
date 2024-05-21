@@ -10,7 +10,7 @@ export const HeaderWrapper = styled.div`
   margin-top: -26px;
   margin-bottom: 73px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.lg}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     grid-template-columns: 1fr;
     gap: 16px;
     margin-bottom: 48px;
@@ -21,7 +21,7 @@ export const Image = styled.img`
   max-width: 384px;
   border-radius: 50%;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.lg}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     max-width: 40vw;
   }
 `;
@@ -31,7 +31,7 @@ export const Content = styled.div`
   flex-direction: column;
   max-width: 633px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.lg}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     max-width: 100%;
   }
 `;
@@ -43,7 +43,7 @@ export const Caption = styled.p`
   font-weight: ${({ theme }) => theme.fontWeight.bold};
   margin: 0 0 12px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.lg}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     margin: 0 0 8px;
   }
 `;
@@ -56,7 +56,7 @@ export const Name = styled.h1`
   letter-spacing: 0.05em;
   margin: 0 0 35px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.lg}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     font-size: 22px;
     margin: 0 0 16px;
   }
@@ -66,7 +66,7 @@ export const Icon = styled.img`
   width: 20px;
   margin-bottom: -2px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.lg}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     width: 17px;
   }
 `;
@@ -77,7 +77,7 @@ export const Description = styled.p`
   letter-spacing: 1.4px;
   margin: 0 0 32px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.lg}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     font-size: 17px;
     margin: 0 0 24px;
   }
@@ -108,7 +108,7 @@ export const Button = styled.button`
     box-shadow: 0 2px ${({ theme }) => theme.button.selectedShadowColor} inset;
   }
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.lg}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     font-size: 18px;
     gap: 12px;
   }
@@ -118,7 +118,7 @@ export const MessageIcon = styled(Message)`
   width: 24px;
   height: 24px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.lg}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     width: 20px;
     height: 20px;
   }

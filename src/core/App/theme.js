@@ -3,14 +3,19 @@ const colorNames = {
   whiteLilac: "#FBFBFE",
   slateGray: "#6E7E91",
   iron: "#D1D5DA4D",
+  iron_2: "#D1D5DA4D",
+  iron_3: "#D1D5DA1A",
   // mercury: "#E5E5E5",
   mineShaf: "#252525",
-  mineShaf_2: "#666666",
+  mineShaf_2: "#363636B8",
+  doveGray: "#6E6E6E",
   scienceBlue: "#0366D6",
   dodgerBlue: "#2188FF",
   anakiwa: "#8CC2FF",
   shipCove: "#6D93BE",
   parsley: "#14462033",
+
+  // :"#363636B8"
 
   test: "yellow",
 };
@@ -28,12 +33,9 @@ const common = {
     heavy: 900, //użyty
   },
   breakpoints: {
-    xs: 0,
-    sm: 576, //użyty
-    md: 768, //użyty
-    lg: 992,  //użyty
-    xl: 1200,
-    xxl: 1400,
+    small: 576,
+    medium: 768,
+    large: 992,
   },
 };
 
@@ -41,7 +43,8 @@ export const themeLight = {
   ...common,
   page: {
     color: colorNames.slateGray,
-    backgroundColor: colorNames.whiteLilac,
+    primaryBackgroundColor: colorNames.whiteLilac,
+    secendaryBackgroundColor: colorNames.white,
   },
   mode: {
     switch: {
@@ -59,18 +62,25 @@ export const themeLight = {
     focusShadowColor: colorNames.anakiwa,
     selectedShadowColor: colorNames.parsley,
   },
+  line: {
+    color: colorNames.iron_2,
+  },
+  dot: {
+    color: colorNames.scienceBlue,
+  },
 };
 
 export const themeDark = {
   ...common,
   page: {
     color: colorNames.white,
-    backgroundColor: colorNames.mineShaf,
+    primaryBackgroundColor: colorNames.mineShaf,
+    secendaryBackgroundColor: colorNames.mineShaf_2,
   },
   mode: {
     switch: {
       color: colorNames.mineShaf,
-      backgroundColor: colorNames.mineShaf_2,
+      backgroundColor: colorNames.doveGray,
     },
   },
   button: {
@@ -79,5 +89,11 @@ export const themeDark = {
     borderColor: colorNames.iron,
     focusShadowColor: colorNames.shipCove,
     selectedShadowColor: colorNames.parsley,
+  },
+  line: {
+    color: colorNames.iron_3,
+  },
+  dot: {
+    color: colorNames.dodgerBlue,
   },
 };
