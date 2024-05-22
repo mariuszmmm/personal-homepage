@@ -9,8 +9,10 @@ export const Header = styled.h2`
   margin: 0 0 48px;
   gap: 16px;
   margin: 32px;
-  padding-bottom: 13px;
-  border-bottom: 1px solid ${({ theme }) => theme.line.color};
+  padding-bottom: ${({ $skills }) => ($skills ? "15px" : "18px")};
+  border-bottom: 1px solid
+    ${({ theme, $skills }) =>
+      $skills ? theme.skillsLine.color : theme.toLearnLine.color};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     font-size: 18px;

@@ -3,9 +3,8 @@ const colorNames = {
   whiteLilac: "#FBFBFE",
   slateGray: "#6E7E91",
   iron: "#D1D5DA4D",
-  iron_2: "#D1D5DA4D",
-  iron_3: "#D1D5DA1A",
-  // mercury: "#E5E5E5",
+  iron_2: "#D1D5DA1A",
+  mercury: "#E5E5E5",
   mineShaf: "#252525",
   mineShaf_2: "#363636B8",
   doveGray: "#6E6E6E",
@@ -15,8 +14,9 @@ const colorNames = {
   shipCove: "#6D93BE",
   parsley: "#14462033",
 
-  // :"#363636B8"
 
+
+  
   test: "yellow",
 };
 
@@ -62,11 +62,27 @@ export const themeLight = {
     focusShadowColor: colorNames.anakiwa,
     selectedShadowColor: colorNames.parsley,
   },
-  line: {
-    color: colorNames.iron_2,
+  skillsLine: {
+    color: colorNames.iron,
+  },
+  toLearnLine: {
+    color: colorNames.mercury,
   },
   dot: {
     color: colorNames.scienceBlue,
+  },
+  icon: {
+    primaryColor: colorNames.scienceBlue,
+    secendaryColor: colorNames.mineShaf,
+  },
+  tileTitle: {
+    color: colorNames.scienceBlue,
+  },
+  link: {
+    color: colorNames.scienceBlue,
+  },
+  tile: {
+    borderColor: colorNames.iron,
   },
 };
 
@@ -90,10 +106,26 @@ export const themeDark = {
     focusShadowColor: colorNames.shipCove,
     selectedShadowColor: colorNames.parsley,
   },
-  line: {
-    color: colorNames.iron_3,
+  skillsLine: {
+    color: colorNames.iron_2,
+  },
+  toLearnLine: {
+    color: colorNames.mercury,
   },
   dot: {
     color: colorNames.dodgerBlue,
+  },
+  icon: {
+    primaryColor: colorNames.dodgerBlue,
+    secendaryColor: colorNames.white,
+  },
+  tileTitle: {
+    color: colorNames.white,
+  },
+  link: {
+    color: colorNames.dodgerBlue,
+  },
+  tile: {
+    borderColor: colorNames.iron_2,
   },
 };

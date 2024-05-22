@@ -9,7 +9,7 @@ import { Dot } from "../../../../common/Dot/index.js";
 export const ToLearn = () => {
   return (
     <Section>
-      <SubHeader title={"What I want to learn next"} src={rocket} />
+      <SubHeader title={"What I want to learn next"} src={rocket}  />
       <List>
         {toLearn.map((item, index) => (
           <ListItem key={index}>

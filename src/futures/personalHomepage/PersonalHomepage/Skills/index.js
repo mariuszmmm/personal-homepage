@@ -9,7 +9,7 @@ import { Dot } from "../../../../common/Dot/index.js";
 export const Skills = () => {
   return (
     <Section>
-      <SubHeader title={"My skillset includes"} src={tools} />
+      <SubHeader title={"My skillset includes"} src={tools} skills />
       <List>
         {skills.map((item, index) => (
           <ListItem key={index}>
