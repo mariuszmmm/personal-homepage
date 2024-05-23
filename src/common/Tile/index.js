@@ -1,21 +1,17 @@
 import { Link, Links, Text, Title, Wrapper } from "./styled";
 
-export const Tile = () => (
+export const Tile = ({ repo }) => (
   <Wrapper>
-    <Title>Tile</Title>
-    <Text>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi rem eos
-      adipisci modi, porro laboriosam? Qui, eaque omnis animi sapiente neque
-      ipsam nisi tenetur repudiandae, porro, minus expedita aut error!
-    </Text>
+    <Title>{repo.name}</Title>
+    <Text>{repo.description}</Text>
     <Links>
       <Text>
         <span>Demo:</span>
-        <Link>link do demo</Link>
+        <Link>  {repo.html_url}</Link>
       </Text>
       <Text>
         <span>Code: </span>
-        <Link>link do github</Link>
+        <Link>{repo.homepage}   </Link>
       </Text>
     </Links>
   </Wrapper>
