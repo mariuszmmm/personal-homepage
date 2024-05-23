@@ -64,8 +64,10 @@ export const Links = styled.div`
 export const Link = styled.a`
   color: ${({ theme }) => theme.link.color};
   border-bottom: 1px solid ${({ theme }) => rgba(theme.link.color, 0.2)};
-  padding-bottom: 3px;
+  padding-bottom: 1px;
+  line-height: 1.4;
   cursor: pointer;
+  word-break:    break-all;
 
   &:hover {
     border-bottom: 1px solid ${({ theme }) => rgba(theme.link.color, 0.8)};

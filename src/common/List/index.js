@@ -5,7 +5,7 @@ export const List = styled.ul`
   grid-template-columns: 1fr 1fr 1fr;
   gap: 8px;
   padding: 0;
-  margin: 0 32px 32px;
+  margin: 0 32px   32px;  
 
   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     grid-template-columns: 1fr 1fr;

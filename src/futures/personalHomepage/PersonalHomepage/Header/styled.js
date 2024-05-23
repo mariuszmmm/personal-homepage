@@ -74,7 +74,7 @@ export const Icon = styled.img`
 export const Description = styled.p`
   font-size: 20px;
   line-height: 1.4;
-  letter-spacing: 1.4px;
+  letter-spacing: 0.05em;
   margin: 0 0 32px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {

@@ -16,7 +16,7 @@ const colorNames = {
 
 
 
-  
+
   test: "yellow",
 };
 
@@ -84,6 +84,9 @@ export const themeLight = {
   tile: {
     borderColor: colorNames.iron,
   },
+  mail: {
+    color: colorNames.scienceBlue,
+  },
 };
 
 export const themeDark = {
@@ -127,5 +130,8 @@ export const themeDark = {
   },
   tile: {
     borderColor: colorNames.iron_2,
+  },
+  mail: {
+    color: colorNames.dodgerBlue,
   },
 };

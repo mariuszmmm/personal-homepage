@@ -16,7 +16,7 @@ export const ModeContainer = styled.button`
 
   &:focus,
   &:hover {
-    outline: 1px solid currentColor;
+    outline: 1px solid     currentColor;
     outline-offset: 6px;
   }
 

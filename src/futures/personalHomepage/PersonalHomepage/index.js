@@ -14,7 +14,7 @@ export const PersonalHomepage = () => {
       <Skills />
       <ToLearn />
       <Portfolio />
-      <Footer>footer</Footer>
+      <Footer />
     </Wrapper>
   );
 };
