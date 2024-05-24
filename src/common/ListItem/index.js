@@ -9,7 +9,7 @@ export const ListItem = styled.li`
   align-items: baseline;
   align-self: flex-start;
   gap: 16px;
-  padding-right:     16px;
+  padding-right: 16px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     font-size: 14px;

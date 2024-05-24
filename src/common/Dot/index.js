@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { ReactComponent as DotSvg } from "./dot.svg";
+import { ReactComponent as DotImage } from "./dot.svg";
 
-export const Dot = styled(DotSvg)`
+export const Dot = styled(DotImage)`
   color: ${({ theme }) => theme.dot.color};
   width: 9px;
 

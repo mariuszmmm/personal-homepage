@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Header = styled.h2`
   font-weight: ${({ theme }) => theme.fontWeight.heavy};
@@ -9,10 +9,16 @@ export const Header = styled.h2`
   margin: 0 0 48px;
   gap: 16px;
   margin: 32px;
-  padding-bottom: ${({ $skills }) => ($skills ? "15px" : "18px")};
-  border-bottom: 1px solid
-    ${({ theme, $skills }) =>
-      $skills ? theme.skillsLine.color : theme.toLearnLine.color};
+  padding-bottom: 18px;
+  border-bottom: 1px solid;
+  border-color: ${({ theme }) => theme.line.primaryColor};
+
+  ${({ $skills }) =>
+    $skills &&
+    css`
+      border-color: ${({ theme }) => theme.line.secendaryColor};
+      padding-bottom: 15px;
+    `}
 
   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     font-size: 18px;

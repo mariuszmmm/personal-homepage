@@ -62,15 +62,6 @@ export const Name = styled.h1`
   }
 `;
 
-export const Icon = styled.img`
-  width: 20px;
-  margin-bottom: -2px;
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
-    width: 17px;
-  }
-`;
-
 export const Description = styled.p`
   font-size: 20px;
   line-height: 1.4;

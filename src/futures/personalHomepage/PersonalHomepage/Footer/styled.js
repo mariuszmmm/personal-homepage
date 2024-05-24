@@ -8,7 +8,7 @@ export const FooterWrapper = styled.div`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.medium}px) {
     max-width: 100%;
-      margin-top: -24px;
+    margin-top: -24px;
   }
 `;
 
@@ -30,28 +30,17 @@ export const Mail = styled.h1`
   font-weight: ${({ theme }) => theme.fontWeight.heavy};
   color: ${({ theme }) => theme.title?.color};
   letter-spacing: 0.05em;
-  margin: 0 0 24px; 
-    transition: color 0.3s ease-in-out;
-    cursor: pointer;
+  margin: 0 0 24px;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     font-size: 18px;
     margin: 0 0 12px;
   }
 
-  &:hover  {
+  &:hover {
     color: ${({ theme }) => theme.mail.color};
-  }
-`;
-
-export const Emoji = styled.img`
-  width: 24px;
-  margin-bottom: -5px;
-
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
-    width: 16px;
-    margin-bottom: -3px;
   }
 `;
 
@@ -70,8 +59,8 @@ export const Description = styled.p`
 `;
 
 export const IconWrapper = styled.div`
-display: flex;
-gap: 24px;
+  display: flex;
+  gap: 24px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     gap: 16px;

@@ -1,18 +1,49 @@
+import { useState } from "react";
+import { useTooltip } from "./useTooltip";
+import { Tooltip } from "../Tooltip";
 import { Link, Links, Text, Title, Wrapper } from "./styled";
 
-export const Tile = ({ repo }) => (
-  <Wrapper>
-    <Title>{repo.name}</Title>
-    <Text>{repo.description}</Text>
-    <Links>
-      <Text>
-        <span>Demo:</span>
-        <Link>  {repo.html_url}</Link>
-      </Text>
-      <Text>
-        <span>Code: </span>
-        <Link>{repo.homepage}   </Link>
-      </Text>
-    </Links>
-  </Wrapper>
-);
+export const Tile = ({ repo }) => {
+  const [demoIsHovered, setDemoIsHovered] = useState(false);
+  const [codeIsHovered, setCodeIsHovered] = useState(false);
+
+  const {
+    handleDemoMouseEnter,
+    handleCodeMouseEnter,
+    handleDemoMouseLeave,
+    handleCodeMouseLeave,
+  } = useTooltip(setDemoIsHovered, setCodeIsHovered);
+
+  return (
+    <Wrapper>
+      <Title>{repo.name}</Title>
+      <Text>{repo.description}</Text>
+      <Links>
+        <Text>
+          <span>Demo:</span>
+          {repo.html_url && (
+            <Link
+              onMouseEnter={handleDemoMouseEnter}
+              onMouseLeave={handleDemoMouseLeave}
+            >
+              {repo.html_url}
+            </Link>
+          )}
+          <Tooltip active={demoIsHovered} text={repo.html_url} />
+        </Text>
+        <Text>
+          <span>Code:</span>
+          {repo.homepage && (
+            <Link
+              onMouseEnter={handleCodeMouseEnter}
+              onMouseLeave={handleCodeMouseLeave}
+            >
+              {repo.homepage}
+            </Link>
+          )}
+          <Tooltip active={codeIsHovered} text={repo.homepage} />
+        </Text>
+      </Links>
+    </Wrapper>
+  );
+};

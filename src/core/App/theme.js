@@ -14,9 +14,6 @@ const colorNames = {
   shipCove: "#6D93BE",
   parsley: "#14462033",
 
-
-
-
   test: "yellow",
 };
 
@@ -62,11 +59,9 @@ export const themeLight = {
     focusShadowColor: colorNames.anakiwa,
     selectedShadowColor: colorNames.parsley,
   },
-  skillsLine: {
-    color: colorNames.iron,
-  },
-  toLearnLine: {
-    color: colorNames.mercury,
+  line: {
+    primaryColor: colorNames.mercury,
+    secendaryColor: colorNames.iron,
   },
   dot: {
     color: colorNames.scienceBlue,
@@ -109,11 +104,9 @@ export const themeDark = {
     focusShadowColor: colorNames.shipCove,
     selectedShadowColor: colorNames.parsley,
   },
-  skillsLine: {
-    color: colorNames.iron_2,
-  },
-  toLearnLine: {
-    color: colorNames.mercury,
+  line: {
+    primaryColor: colorNames.mercury,
+    secendaryColor: colorNames.iron_2,
   },
   dot: {
     color: colorNames.dodgerBlue,
