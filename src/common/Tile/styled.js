@@ -29,15 +29,18 @@ export const Title = styled.h3`
   }
 `;
 
-export const Text = styled.p`
+export const Text = styled.span`
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.05em;
   margin: 0;
+  position: relative;
 
   span {
-    display: inline-block;
-    width: 68px;
+    width: 59px;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.medium}px) {
@@ -45,7 +48,7 @@ export const Text = styled.p`
     line-height: 1.2;
 
     span {
-      width: 55px;
+      width: 46px;
     }
   }
 `;
@@ -67,7 +70,12 @@ export const Link = styled.a`
   padding-bottom: 1px;
   line-height: 1.4;
   cursor: pointer;
-  word-break:    break-all;
+  position: absolute;
+  left: 67px;
+  max-width: 86%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 
   &:hover {
     border-bottom: 1px solid ${({ theme }) => rgba(theme.link.color, 0.8)};
