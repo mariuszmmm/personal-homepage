@@ -5,13 +5,13 @@ import {
   Caption,
   Name,
   Description,
-  Button,
   MessageIcon,
 } from "./styled";
 import foto from "./foto.jpg";
 import face from "./face.png";
 import laptop from "./laptop.png";
 import { Emoji } from "../../../../common/Emoji";
+import { Button } from "../../../../common/Button";
 
 export const Header = () => (
   <HeaderWrapper>

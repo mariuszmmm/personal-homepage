@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-export const Header = styled.h2`
+export const Header = styled.h3`
   font-weight: ${({ theme }) => theme.fontWeight.heavy};
   font-size: 30px;
   line-height: 1.2;

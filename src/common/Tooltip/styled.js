@@ -4,7 +4,7 @@ export const TooltipWrapper = styled.p`
   margin: 0;
   position: absolute;
   top: 30px;
-  max-width: 70vw;
+  max-width: 80vw;
   right: ${({ $isEven }) => ($isEven ? "auto" : 0)};
   word-wrap: break-word;
   z-index: 1;

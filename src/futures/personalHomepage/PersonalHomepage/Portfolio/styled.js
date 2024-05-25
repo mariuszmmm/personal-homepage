@@ -6,7 +6,7 @@ export const PortfolioHeader = styled.div`
   align-items: center;
 `;
 
-export const Header = styled.h2`
+export const Header = styled.h3`
   font-weight: ${({ theme }) => theme.fontWeight.heavy};
   font-size: 30px;
   line-height: 1.2;
@@ -18,18 +18,6 @@ export const Header = styled.h2`
   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     font-size: 18px;
     margin-bottom: 16px;
-  }
-`;
-
-export const Text = styled.p`
-  margin: 0 0 24px;
-  font-size: 20px;
-  letter-spacing: 0.05em;
-  line-height: 1.4;
-  color: ${({ theme }) => theme.title?.color};
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
-    font-size: 17px;
   }
 `;
 

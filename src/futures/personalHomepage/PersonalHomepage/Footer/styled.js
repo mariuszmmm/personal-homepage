@@ -24,7 +24,7 @@ export const Caption = styled.p`
   }
 `;
 
-export const Mail = styled.h1`
+export const Mail = styled.h2`
   font-size: 32px;
   line-height: 1.2;
   font-weight: ${({ theme }) => theme.fontWeight.heavy};

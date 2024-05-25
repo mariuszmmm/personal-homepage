@@ -6,11 +6,17 @@ export const Wrapper = styled.div`
   flex-direction: column;
   gap: 24px;
   padding: 50px;
-  border: 6px solid ${({ theme }) => theme.tile.borderColor};
+  border: 6px solid;
+  border-color: ${({ theme }) => theme.tile.borderColor};
   border-radius: 4px;
   background-color: ${({ $portfolio, theme }) =>
     $portfolio ? "inherit" : theme.page.secendaryBackgroundColor};
   transition: background 0.5s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+
+  &:hover {
+    border-color: ${({ theme }) => theme.tile.hoveredBorderColor};
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     padding: 18px;
@@ -18,19 +24,6 @@ export const Wrapper = styled.div`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.medium}px) {
     gap: 16px;
-  }
-`;
-
-export const Title = styled.h3`
-  font-size: 24px;
-  font-weight: ${({ theme }) => theme.fontWeight.bold};
-  line-height: 1.2;
-  letter-spacing: 0.05em;
-  color: ${({ theme }) => theme.tileTitle.color};
-  margin: 0;
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.medium}px) {
-    font-size: 16px;
   }
 `;
 
@@ -77,6 +70,7 @@ export const Link = styled.a`
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  transition: border-color 0.3s ease-in-out;
 
   &:hover {
     border-color: ${({ theme }) => rgba(theme.link.color, 0.8)};

@@ -9,25 +9,20 @@ const colorNames = {
   mineShaf_2: "#363636B8",
   doveGray: "#6E6E6E",
   scienceBlue: "#0366D6",
+  scienceBlue_2: "#0366D633",
+  scienceBlue_3: "#0366D680",
   dodgerBlue: "#2188FF",
   anakiwa: "#8CC2FF",
   shipCove: "#6D93BE",
   parsley: "#14462033",
-
-  test: "yellow",
 };
 
 const common = {
   fontWeight: {
-    thin: 100,
-    extraLight: 200,
-    light: 300,
-    normal: 400, // użyty
-    medium: 500,
-    semiBold: 600, //użyty
-    bold: 700, // użyty
-    extraBold: 800,
-    heavy: 900, //użyty
+    normal: 400,
+    semiBold: 600,
+    bold: 700,
+    heavy: 900,
   },
   breakpoints: {
     small: 576,
@@ -70,6 +65,13 @@ export const themeLight = {
     primaryColor: colorNames.scienceBlue,
     secendaryColor: colorNames.mineShaf,
   },
+  errorTitle: {
+    color: colorNames.mineShaf,
+  },
+  spinner: {
+    primaryColor: colorNames.scienceBlue,
+    secendaryColor: colorNames.iron,
+  },
   tileTitle: {
     color: colorNames.scienceBlue,
   },
@@ -78,6 +80,7 @@ export const themeLight = {
   },
   tile: {
     borderColor: colorNames.iron,
+    hoveredBorderColor: colorNames.scienceBlue_2,
   },
   mail: {
     color: colorNames.scienceBlue,
@@ -108,12 +111,19 @@ export const themeDark = {
     primaryColor: colorNames.mercury,
     secendaryColor: colorNames.iron_2,
   },
+  spinner: {
+    primaryColor: colorNames.dodgerBlue,
+    secendaryColor: colorNames.mineShaf_2,
+  },
   dot: {
     color: colorNames.dodgerBlue,
   },
   icon: {
     primaryColor: colorNames.dodgerBlue,
     secendaryColor: colorNames.white,
+  },
+  errorTitle: {
+    color: colorNames.white,
   },
   tileTitle: {
     color: colorNames.white,
@@ -123,6 +133,7 @@ export const themeDark = {
   },
   tile: {
     borderColor: colorNames.iron_2,
+    hoveredBorderColor: colorNames.scienceBlue_3,
   },
   mail: {
     color: colorNames.dodgerBlue,

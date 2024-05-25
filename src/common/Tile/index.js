@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { useTooltip } from "./useTooltip";
 import { Tooltip } from "../Tooltip";
-import { Link, Links, Text, Title, Wrapper } from "./styled";
+import { Link, Links, Text, Wrapper } from "./styled";
+import { Title } from "../Title";
 
 export const Tile = ({ repo, index }) => {
   const [demoIsHovered, setDemoIsHovered] = useState(false);
