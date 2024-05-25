@@ -15,13 +15,19 @@ export const useTooltip = (setDemoIsHovered, setCodeIsHovered) => {
   };
 
   const handleDemoMouseLeave = () => {
-    clearInterval(hoverDemoTimeout);
-    setDemoIsHovered(false);
+    clearTimeout(hoverDemoTimeout);
+
+    setTimeout(() => {
+      setDemoIsHovered(false);
+    }, 100);
   };
 
   const handleCodeMouseLeave = () => {
-    clearInterval(hoverCodeTimeout);
-    setCodeIsHovered(false);
+    clearTimeout(hoverCodeTimeout);
+
+    setTimeout(() => {
+      setCodeIsHovered(false);
+    }, 100);
   };
 
   return {

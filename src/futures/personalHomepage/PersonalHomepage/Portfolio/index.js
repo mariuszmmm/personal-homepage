@@ -15,8 +15,8 @@ export const Portfolio = () => {
         <Text>My recent projects</Text>
       </PortfolioHeader>
       <PortfolioContent>
-        {repos?.map((repo) => (
-          <Tile key={repo.id} repo={repo} />
+        {repos?.map((repo, index) => (
+          <Tile key={repo.id} repo={repo} index={index} />
         ))}
       </PortfolioContent>
     </Section>
