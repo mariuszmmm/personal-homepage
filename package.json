@@ -2,7 +2,7 @@
   "name": "personal-homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mariuszmmm.github.io/personal-homepage/",
+  "homepage": "https://myprojects.pl",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.5",
     "@testing-library/jest-dom": "^5.17.0",
