@@ -6,12 +6,20 @@ export const useTooltip = (setDemoIsHovered, setCodeIsHovered) => {
     hoverDemoTimeout = setTimeout(() => {
       setDemoIsHovered(true);
     }, 1000);
+
+    setTimeout(() => {
+      setDemoIsHovered(false);
+    }, 2000);
   };
 
   const handleCodeMouseEnter = () => {
     hoverCodeTimeout = setTimeout(() => {
       setCodeIsHovered(true);
     }, 1000);
+
+    setTimeout(() => {
+      setCodeIsHovered(false);
+    }, 2000);
   };
 
   const handleDemoMouseLeave = () => {
@@ -19,7 +27,7 @@ export const useTooltip = (setDemoIsHovered, setCodeIsHovered) => {
 
     setTimeout(() => {
       setDemoIsHovered(false);
-    }, 1000);
+    }, 500);
   };
 
   const handleCodeMouseLeave = () => {
@@ -27,7 +35,7 @@ export const useTooltip = (setDemoIsHovered, setCodeIsHovered) => {
 
     setTimeout(() => {
       setCodeIsHovered(false);
-    }, 1000);
+    }, 500);
   };
 
   return {

@@ -24,37 +24,37 @@ export const Tile = ({ repo, index }) => {
       <Links>
         <Text>
           <span>Demo:</span>
-          {repo.html_url && (
-            <Link
-              href={repo.html_url}
-              target="_blank"
-              onMouseEnter={handleDemoMouseEnter}
-              onMouseLeave={handleDemoMouseLeave}
-            >
-              {repo.html_url}
-            </Link>
-          )}
-          <Tooltip
-            active={demoIsHovered}
-            text={repo.html_url}
-            isEven={isEven}
-          />
-        </Text>
-        <Text>
-          <span>Code:</span>
           {repo.homepage && (
             <Link
               href={repo.homepage}
               target="_blank"
-              onMouseEnter={handleCodeMouseEnter}
-              onMouseLeave={handleCodeMouseLeave}
+              onMouseEnter={handleDemoMouseEnter}
+              onMouseLeave={handleDemoMouseLeave}
             >
               {repo.homepage}
             </Link>
           )}
           <Tooltip
-            active={codeIsHovered}
+            active={demoIsHovered}
             text={repo.homepage}
+            isEven={isEven}
+          />
+        </Text>
+        <Text>
+          <span>Code:</span>
+          {repo.html_url && (
+            <Link
+              href={repo.html_url}
+              target="_blank"
+              onMouseEnter={handleCodeMouseEnter}
+              onMouseLeave={handleCodeMouseLeave}
+            >
+              {repo.html_url}
+            </Link>
+          )}
+          <Tooltip
+            active={codeIsHovered}
+            text={repo.html_url}
             isEven={isEven}
           />
         </Text>

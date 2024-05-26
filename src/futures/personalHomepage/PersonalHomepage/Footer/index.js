@@ -4,6 +4,7 @@ import {
   Description,
   Mail,
   IconWrapper,
+  Link,
 } from "./styled";
 import crossedFingers from "./crossedFingers.svg";
 import {
@@ -16,7 +17,7 @@ import { Emoji } from "../../../../common/Emoji";
 import { person } from "../../../../utils/person";
 
 export const Footer = () => {
-  const { email, invitation } = person;
+  const { email, invitation, github, facebook, linkedin, instagram } = person;
 
   return (
     <FooterWrapper>
@@ -27,10 +28,26 @@ export const Footer = () => {
         <Emoji src={crossedFingers} $footer />
       </Description>
       <IconWrapper>
-        <GithubIcon />
-        <FacebookIcon />
-        <LinkedInIcon />
-        <InstagramIcon />
+        {github?.link && (
+          <Link href={github.link} target="_blank">
+            <GithubIcon />
+          </Link>
+        )}
+        {facebook?.link && (
+          <Link href={facebook.link} target="_blank">
+            <FacebookIcon />
+          </Link>
+        )}
+        {linkedin?.link && (
+          <Link href={linkedin.link} target="_blank">
+            <LinkedInIcon />
+          </Link>
+        )}
+        {instagram?.link && (
+          <Link href={instagram.link} target="_blank">
+            <InstagramIcon />
+          </Link>
+        )}
       </IconWrapper>
     </FooterWrapper>
   );

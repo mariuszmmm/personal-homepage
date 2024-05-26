@@ -28,7 +28,7 @@ export const Mail = styled.a`
   font-size: 32px;
   line-height: 1.2;
   font-weight: ${({ theme }) => theme.fontWeight.heavy};
-  color: ${({ theme }) => theme.title?.color};
+  color: ${({ theme }) => theme.mail.primaryColor};
   letter-spacing: 0.05em;
   margin: 0 0 24px;
   transition: color 0.3s ease-in-out;
@@ -41,7 +41,7 @@ export const Mail = styled.a`
   }
 
   &:hover {
-    color: ${({ theme }) => theme.mail.color};
+    color: ${({ theme }) => theme.mail.secendaryColor};
   }
 `;
 
@@ -65,5 +65,15 @@ export const IconWrapper = styled.div`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     gap: 16px;
+  }
+`;
+
+export const Link = styled.a`
+  width: 48px;
+  height: 48px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
+    width: 32px;
+    height: 32px;
   }
 `;

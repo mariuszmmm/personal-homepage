@@ -14,6 +14,8 @@ export const person = {
   facebook: {
     link: "https://www.facebook.com/MariuszMmyprojects",
   },
-  linkedin: null,
+  linkedin: {
+    link: "https://www.linkedin.com/in/mariusz-mmm-6b7175253/",
+  },
   instagram: null,
 };

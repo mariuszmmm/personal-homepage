@@ -83,7 +83,8 @@ export const themeLight = {
     hoveredBorderColor: colorNames.scienceBlue_2,
   },
   mail: {
-    color: colorNames.scienceBlue,
+    primaryColor: colorNames.mineShaf,
+    secendaryColor: colorNames.scienceBlue,
   },
 };
 
@@ -136,6 +137,7 @@ export const themeDark = {
     hoveredBorderColor: colorNames.scienceBlue_3,
   },
   mail: {
-    color: colorNames.dodgerBlue,
+    primaryColor: colorNames.white,
+    secendaryColor: colorNames.dodgerBlue,
   },
 };
