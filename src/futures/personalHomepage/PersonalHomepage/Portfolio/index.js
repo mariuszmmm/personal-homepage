@@ -8,7 +8,7 @@ import { Header, PortfolioContent, PortfolioHeader } from "./styled";
 import { useApi } from "./useApi";
 
 export const Portfolio = () => {
-  const repos = useApi();
+  const { state, repos } = useApi();
 
   return (
     <Section $portfolio>
@@ -17,15 +17,15 @@ export const Portfolio = () => {
         <Header>Portfolio</Header>
         <Text>My recent projects</Text>
       </PortfolioHeader>
-
-      <Loading />
-      <Error />
-
-      <PortfolioContent>
-        {repos?.map((repo, index) => (
-          <Tile key={repo.id} repo={repo} index={index} />
-        ))}
-      </PortfolioContent>
+      {state === "loading" && <Loading />}
+      {state === "error" && <Error />}
+      {state === "success" && (
+        <PortfolioContent>
+          {repos.map((repo, index) => (
+            <Tile key={repo.id} repo={repo} index={index} />
+          ))}
+        </PortfolioContent>
+      )}
     </Section>
   );
 };

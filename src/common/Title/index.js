@@ -8,8 +8,8 @@ export const Title = styled.h4`
   color: ${({ theme }) => theme.tileTitle.color};
   margin: 0;
 
-  ${({ theme, error }) =>
-    error &&
+  ${({ theme, $error }) =>
+    $error &&
     css`
       color: ${theme.title?.color};
     `}

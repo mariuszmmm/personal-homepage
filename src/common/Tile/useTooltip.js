@@ -19,7 +19,7 @@ export const useTooltip = (setDemoIsHovered, setCodeIsHovered) => {
 
     setTimeout(() => {
       setDemoIsHovered(false);
-    }, 200);
+    }, 1000);
   };
 
   const handleCodeMouseLeave = () => {
@@ -27,7 +27,7 @@ export const useTooltip = (setDemoIsHovered, setCodeIsHovered) => {
 
     setTimeout(() => {
       setCodeIsHovered(false);
-    }, 200);
+    }, 1000);
   };
 
   return {
