@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Button = styled.button`
+export const ButtonLink = styled.a`
   background-color: ${({ theme }) => theme.button.backgroundColor};
   color: ${({ theme }) => theme.button.color};
   font-weight: ${({ theme }) => theme.fontWeight.semiBold};
@@ -15,6 +15,7 @@ export const Button = styled.button`
   gap: 16px;
   align-items: center;
   width: fit-content;
+  text-decoration: none;
 
   &:focus,
   &:hover {

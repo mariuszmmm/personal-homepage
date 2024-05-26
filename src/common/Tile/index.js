@@ -26,6 +26,8 @@ export const Tile = ({ repo, index }) => {
           <span>Demo:</span>
           {repo.html_url && (
             <Link
+              href={repo.html_url}
+              target="_blank"
               onMouseEnter={handleDemoMouseEnter}
               onMouseLeave={handleDemoMouseLeave}
             >
@@ -42,6 +44,8 @@ export const Tile = ({ repo, index }) => {
           <span>Code:</span>
           {repo.homepage && (
             <Link
+              href={repo.homepage}
+              target="_blank"
               onMouseEnter={handleCodeMouseEnter}
               onMouseLeave={handleCodeMouseLeave}
             >

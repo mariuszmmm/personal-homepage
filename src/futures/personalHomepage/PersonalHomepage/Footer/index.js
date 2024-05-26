@@ -13,22 +13,25 @@ import {
   LinkedInIcon,
 } from "../../../../common/Icon";
 import { Emoji } from "../../../../common/Emoji";
+import { person } from "../../../../utils/person";
 
-export const Footer = () => (
-  <FooterWrapper>
-    <Caption>Let’s talk!</Caption>
-    <Mail>mariuszmmm@op.pl</Mail>
-    <Description>
-      I’m always open to new projects whenever I have the time. If you have a
-      website, dashboard or mobile app in mind and need some help to make your
-      ideas come to life, feel free to contact me
-      <Emoji src={crossedFingers} $footer />
-    </Description>
-    <IconWrapper>
-      <GithubIcon />
-      <FacebookIcon />
-      <LinkedInIcon />
-      <InstagramIcon />
-    </IconWrapper>
-  </FooterWrapper>
-);
+export const Footer = () => {
+  const { email, invitation } = person;
+
+  return (
+    <FooterWrapper>
+      <Caption>Let’s talk!</Caption>
+      <Mail href={`mailto:${email}`}>{email}</Mail>
+      <Description>
+        {invitation}
+        <Emoji src={crossedFingers} $footer />
+      </Description>
+      <IconWrapper>
+        <GithubIcon />
+        <FacebookIcon />
+        <LinkedInIcon />
+        <InstagramIcon />
+      </IconWrapper>
+    </FooterWrapper>
+  );
+};

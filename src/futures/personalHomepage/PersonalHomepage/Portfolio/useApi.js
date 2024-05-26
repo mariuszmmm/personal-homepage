@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { getRepos } from "../../../../api/getRepos";
+import { person } from "../../../../utils/person";
 
 export const useApi = () => {
   const [state, setState] = useState({
@@ -8,8 +9,9 @@ export const useApi = () => {
   });
 
   useEffect(() => {
+    const { name } = person.github;
     const fetchData = async () => {
-      const response = await getRepos();
+      const response = await getRepos(name);
       if (response.status === 200) {
         setState({
           state: "success",

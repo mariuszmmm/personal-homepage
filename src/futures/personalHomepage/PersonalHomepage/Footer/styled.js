@@ -24,7 +24,7 @@ export const Caption = styled.p`
   }
 `;
 
-export const Mail = styled.h2`
+export const Mail = styled.a`
   font-size: 32px;
   line-height: 1.2;
   font-weight: ${({ theme }) => theme.fontWeight.heavy};
@@ -33,6 +33,7 @@ export const Mail = styled.h2`
   margin: 0 0 24px;
   transition: color 0.3s ease-in-out;
   cursor: pointer;
+  text-decoration: none;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     font-size: 18px;

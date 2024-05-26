@@ -71,6 +71,7 @@ export const Link = styled.a`
   overflow: hidden;
   text-overflow: ellipsis;
   transition: border-color 0.3s ease-in-out;
+  text-decoration: none;
 
   &:hover {
     border-color: ${({ theme }) => rgba(theme.link.color, 0.8)};
