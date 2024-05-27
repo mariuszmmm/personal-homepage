@@ -8,7 +8,7 @@ const styleIcon = (IconComponent) => styled(IconComponent)`
   width: 48px;
   height: auto;
   color: ${({ theme }) => theme.icon.secendaryColor};
-  transition: color 0.3s ease-in-out;
+  transition: color 0.2s ease-in-out;
   cursor: pointer;
 
   ${({ $portfolio }) =>

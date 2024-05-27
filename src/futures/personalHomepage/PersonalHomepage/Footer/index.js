@@ -24,8 +24,7 @@ export const Footer = () => {
       <Caption>Let’s talk!</Caption>
       <Mail href={`mailto:${email}`}>{email}</Mail>
       <Description>
-        {invitation}
-        <Emoji src={crossedFingers} $footer />
+        {invitation} <Emoji src={crossedFingers} $footer />
       </Description>
       <IconWrapper>
         {github?.link && (

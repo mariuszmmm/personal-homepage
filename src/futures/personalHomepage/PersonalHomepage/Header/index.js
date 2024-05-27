@@ -26,7 +26,7 @@ export const Header = () => {
         <Description>
           <Emoji src={face} />
           <Emoji src={laptop} />
-          &nbsp; {description}
+          {"  "}&nbsp;{description}
         </Description>
         <ButtonLink href={`mailto:${email}`}>
           <MessageIcon /> Hire Me

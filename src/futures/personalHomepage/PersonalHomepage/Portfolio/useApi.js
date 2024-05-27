@@ -9,13 +9,18 @@ export const useApi = () => {
   });
 
   useEffect(() => {
-    const { name } = person.github;
+    const { name, exclusions } = person.github;
     const fetchData = async () => {
       const response = await getRepos(name);
+
+      const repos = response.data.filter((repo) =>
+        !exclusions.some((exclusion) => exclusion.name === repo.name)
+      );
+
       if (response.status === 200) {
         setState({
           state: "success",
-          repos: response.data,
+          repos,
         });
       } else {
         setState({
