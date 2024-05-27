@@ -16,7 +16,7 @@ export const person = {
   },
   facebook: null,
   linkedin: {
-    link: "www.linkedin.com/in/mariuszmatusiewicz",
+    link: "https://www.linkedin.com/in/mariuszmatusiewicz",
   },
   instagram: null,
   skills: [
