@@ -7,9 +7,9 @@ import {
   Description,
   MessageIcon,
 } from "./styled";
-import foto from "./foto.jpg";
-import face from "./face.png";
-import laptop from "./laptop.png";
+import foto from "../../../../images/foto.jpg";
+import face from "../../../../images/face.png";
+import laptop from "../../../../images/laptop.png";
 import { Emoji } from "../../../../common/Emoji";
 import { ButtonLink } from "../../../../common/ButtonLink";
 import { person } from "../../../../utils/person";

@@ -1,8 +1,8 @@
 import styled, { css } from "styled-components";
-import { ReactComponent as Github } from "./images/github.svg";
-import { ReactComponent as Facebook } from "./images/facebook.svg";
-import { ReactComponent as LinkedIn } from "./images/linkedIn.svg";
-import { ReactComponent as Instagram } from "./images/instagram.svg";
+import { ReactComponent as Github } from "../../images/github.svg";
+import { ReactComponent as Facebook } from "../../images/facebook.svg";
+import { ReactComponent as LinkedIn } from "../../images/linkedIn.svg";
+import { ReactComponent as Instagram } from "../../images/instagram.svg";
 
 const styleIcon = (IconComponent) => styled(IconComponent)`
   width: 48px;

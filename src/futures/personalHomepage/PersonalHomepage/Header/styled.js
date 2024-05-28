@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as Message } from "./message.svg";
+import { ReactComponent as Message } from "../../../../images/message.svg";
 
 export const HeaderWrapper = styled.div`
   display: grid;

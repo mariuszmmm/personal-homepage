@@ -6,7 +6,7 @@ import {
   IconWrapper,
   Link,
 } from "./styled";
-import crossedFingers from "./crossedFingers.svg";
+import crossedFingers from "../../../../images/crossedFingers.svg";
 import {
   GithubIcon,
   FacebookIcon,
