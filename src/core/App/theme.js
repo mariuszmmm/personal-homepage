@@ -38,18 +38,16 @@ export const themeLight = {
     primaryBackgroundColor: colorNames.whiteLilac,
     secendaryBackgroundColor: colorNames.white,
   },
-  mode: {
-    switch: {
-      color: colorNames.white,
-      backgroundColor: colorNames.iron,
-    },
+  modeSwitch: {
+    color: colorNames.white,
+    backgroundColor: colorNames.iron,
   },
   title: {
     color: colorNames.mineShaf,
   },
   button: {
-    backgroundColor: colorNames.scienceBlue,
     color: colorNames.white,
+    backgroundColor: colorNames.scienceBlue,
     borderColor: colorNames.iron,
     focusShadowColor: colorNames.anakiwa,
     selectedShadowColor: colorNames.parsley,
@@ -72,19 +70,19 @@ export const themeLight = {
     primaryColor: colorNames.scienceBlue,
     secendaryColor: colorNames.iron,
   },
-  tileTitle: {
-    color: colorNames.scienceBlue,
-  },
-  link: {
-    color: colorNames.scienceBlue,
-  },
   tile: {
     borderColor: colorNames.iron,
     hoveredBorderColor: colorNames.scienceBlue_2,
   },
+  tileTitle: {
+    color: colorNames.scienceBlue,
+  },
   mail: {
     primaryColor: colorNames.mineShaf,
     secendaryColor: colorNames.scienceBlue,
+  },
+  link: {
+    color: colorNames.scienceBlue,
   },
 };
 
@@ -95,15 +93,13 @@ export const themeDark = {
     primaryBackgroundColor: colorNames.mineShaf,
     secendaryBackgroundColor: colorNames.mineShaf_2,
   },
-  mode: {
-    switch: {
-      color: colorNames.mineShaf,
-      backgroundColor: colorNames.doveGray,
-    },
+  modeSwitch: {
+    color: colorNames.mineShaf,
+    backgroundColor: colorNames.doveGray,
   },
   button: {
-    backgroundColor: colorNames.dodgerBlue,
     color: colorNames.white,
+    backgroundColor: colorNames.dodgerBlue,
     borderColor: colorNames.iron,
     focusShadowColor: colorNames.shipCove,
     selectedShadowColor: colorNames.parsley,
@@ -126,18 +122,18 @@ export const themeDark = {
   errorTitle: {
     color: colorNames.white,
   },
-  tileTitle: {
-    color: colorNames.white,
-  },
-  link: {
-    color: colorNames.dodgerBlue,
-  },
   tile: {
     borderColor: colorNames.iron_2,
     hoveredBorderColor: colorNames.scienceBlue_3,
   },
+  tileTitle: {
+    color: colorNames.white,
+  },
   mail: {
     primaryColor: colorNames.white,
     secendaryColor: colorNames.dodgerBlue,
+  },
+  link: {
+    color: colorNames.dodgerBlue,
   },
 };
