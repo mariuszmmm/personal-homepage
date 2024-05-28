@@ -15,14 +15,14 @@ import { ButtonLink } from "../../../../common/ButtonLink";
 import { person } from "../../../../utils/person";
 
 export const Header = () => {
-  const { email, description } = person;
+  const { name, email, description } = person;
 
   return (
     <HeaderWrapper>
       <Image src={foto} />
       <Content>
         <Caption>this is</Caption>
-        <Name>Mariusz Matusiewicz</Name>
+        <Name>{name}</Name>
         <Description>
           <Emoji src={face} />
           <Emoji src={laptop} />

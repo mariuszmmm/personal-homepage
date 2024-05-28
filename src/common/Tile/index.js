@@ -1,20 +1,17 @@
 import { useState } from "react";
 import { useTooltip } from "./useTooltip";
-import { Tooltip } from "../Tooltip";
-import { Link, Links, Text, Wrapper } from "./styled";
+import { Link, Links, Text, Tooltip, Wrapper } from "./styled";
 import { Title } from "../Title";
 
 export const Tile = ({ repo, index }) => {
   const [demoIsHovered, setDemoIsHovered] = useState(false);
   const [codeIsHovered, setCodeIsHovered] = useState(false);
-
   const {
     handleDemoMouseEnter,
     handleCodeMouseEnter,
     handleDemoMouseLeave,
     handleCodeMouseLeave,
   } = useTooltip(setDemoIsHovered, setCodeIsHovered);
-
   const isEven = index % 2 === 0;
 
   return (
@@ -34,11 +31,9 @@ export const Tile = ({ repo, index }) => {
               {repo.homepage}
             </Link>
           )}
-          <Tooltip
-            active={demoIsHovered}
-            text={repo.homepage}
-            isEven={isEven}
-          />
+          <Tooltip $active={demoIsHovered} $isEven={isEven}>
+            {repo.homepage}
+          </Tooltip>
         </Text>
         <Text>
           <span>Code:</span>
@@ -52,11 +47,9 @@ export const Tile = ({ repo, index }) => {
               {repo.html_url}
             </Link>
           )}
-          <Tooltip
-            active={codeIsHovered}
-            text={repo.html_url}
-            isEven={isEven}
-          />
+          <Tooltip $active={codeIsHovered} $isEven={isEven}>
+            {repo.html_url}
+          </Tooltip>
         </Text>
       </Links>
     </Wrapper>
