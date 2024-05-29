@@ -16,6 +16,7 @@ export const ButtonLink = styled.a`
   align-items: center;
   width: fit-content;
   text-decoration: none;
+  transition: box-shadow 0.3s ease-in-out;
 
   &:focus,
   &:hover {

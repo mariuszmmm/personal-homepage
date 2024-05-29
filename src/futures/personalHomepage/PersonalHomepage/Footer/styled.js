@@ -31,7 +31,7 @@ export const Mail = styled.a`
   color: ${({ theme }) => theme.mail.primaryColor};
   letter-spacing: 0.05em;
   margin: 0 0 24px;
-  transition: color 0.2s ease-in-out;
+  transition: color 0.3s ease-in-out;
   cursor: pointer;
   text-decoration: none;
 

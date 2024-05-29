@@ -9,9 +9,9 @@ export const person = {
     name: "mariuszmmm",
     link: "https://github.com/mariuszmmm",
     exclusions: [
-      { name: "Mariuszmmm" },
-      { name: "Calculator" },
-      { name: "Photo-catalog-backend" },
+      { name: "mariuszmmm" },
+      { name: "calculator" },
+      { name: "photo-catalog-backend" },
     ],
   },
   facebook: null,
