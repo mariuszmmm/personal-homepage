@@ -1,1 +1,2 @@
-export const url = (name) => `https://api.github.com/users/${name}/repos`;
+export const url = (username) =>
+  `https://api.github.com/users/${username}/repos`;

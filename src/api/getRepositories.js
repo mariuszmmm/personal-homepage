@@ -1,9 +1,9 @@
 import axios from "axios";
 import { url } from "./api";
 
-export const getRepos = async (name) => {
+export const getRepositories = async (username) => {
   try {
-    const response = await axios.get(url(name));
+    const response = await axios.get(url(username));
     return {
       data: response.data,
       status: response.status,

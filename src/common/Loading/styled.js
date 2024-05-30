@@ -25,4 +25,9 @@ export const SpinnerIcon = styled(Spinner)`
   circle {
     color: ${({ theme }) => theme.spinner.secendaryColor};
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
+    width: 80px;
+    margin: 0;
+  }
 `;

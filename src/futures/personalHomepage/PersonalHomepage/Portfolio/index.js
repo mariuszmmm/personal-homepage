@@ -1,3 +1,4 @@
+import { useDispatch, useSelector } from "react-redux";
 import { Error } from "../../../../common/Error";
 import { GithubIcon } from "../../../../common/Icon";
 import { Loading } from "../../../../common/Loading";
@@ -5,10 +6,21 @@ import { Section } from "../../../../common/Section";
 import { Text } from "../../../../common/Text";
 import { Tile } from "../../../../common/Tile";
 import { Header, PortfolioContent, PortfolioHeader } from "./styled";
-import { useApi } from "./useApi";
+import {
+  fetchRepositories,
+  selectRepositories,
+  selectState,
+} from "../personalHomepageSlice";
+import { useEffect } from "react";
 
 export const Portfolio = () => {
-  const { state, repos } = useApi();
+  const state = useSelector(selectState);
+  const dispatch = useDispatch();
+  const repositories = useSelector(selectRepositories);
+
+  useEffect(() => {
+    dispatch(fetchRepositories());
+  }, []);
 
   return (
     <Section $portfolio>
@@ -21,7 +33,7 @@ export const Portfolio = () => {
       {state === "error" && <Error />}
       {state === "success" && (
         <PortfolioContent>
-          {repos.map((repo, index) => (
+          {repositories.map((repo, index) => (
             <Tile key={repo.id} repo={repo} index={index} />
           ))}
         </PortfolioContent>
