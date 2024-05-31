@@ -10,7 +10,7 @@ export const Header = styled.h3`
   font-weight: ${({ theme }) => theme.fontWeight.heavy};
   font-size: 30px;
   line-height: 1.2;
-  color: ${({ theme }) => theme.title?.color};
+  color: ${({ theme }) => theme.colors.textSecendary};
   letter-spacing: 0.05em;
   margin-top: 12px;
   margin-bottom: 8px;

@@ -11,9 +11,9 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: "Inter", sans-serif;
-    color: ${({ theme }) => theme.page.color};
-    background-color: ${({ theme }) => theme.page.primaryBackgroundColor};
-    font-weight: ${({ theme }) => theme.page.normal};
+    color: ${({ theme }) => theme.colors.textPrimary};
+    background-color: ${({ theme }) => theme.colors.backgroundPrimary};
+    font-weight: ${({ theme }) => theme.fontWeight.normal};
     min-width: 320px;
     transition: background 0.5s ease-in-out;
     margin: 0 auto;

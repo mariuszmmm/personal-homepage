@@ -19,11 +19,11 @@ const spin = keyframes`
 
 export const SpinnerIcon = styled(Spinner)`
   margin-top: 24px;
-  color: ${({ theme }) => theme.spinner.primaryColor};
+  color: ${({ theme }) => theme.colors.spinner.primary};
   animation: ${spin} 1.5s linear infinite;
 
   circle {
-    color: ${({ theme }) => theme.spinner.secendaryColor};
+    color: ${({ theme }) => theme.colors.spinner.secendary};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {

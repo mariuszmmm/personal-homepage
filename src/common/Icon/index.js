@@ -7,7 +7,7 @@ import { ReactComponent as Instagram } from "../../images/instagram.svg";
 const styleIcon = (IconComponent) => styled(IconComponent)`
   width: 48px;
   height: auto;
-  color: ${({ theme }) => theme.icon.secendaryColor};
+  color: ${({ theme }) => theme.colors.primary};
   transition: color 0.3s ease-in-out;
   cursor: pointer;
 
@@ -16,11 +16,11 @@ const styleIcon = (IconComponent) => styled(IconComponent)`
     css`
       width: 40px;
       height: auto;
-      color: ${({ theme }) => theme.icon.primaryColor};
+      color: ${({ theme }) => theme.colors.secendary};
       cursor: auto;
 
       &:hover {
-        color: ${({ theme }) => theme.icon.primaryColor};
+        color: ${({ theme }) => theme.colors.secendary};
       }
     `};
 
@@ -29,7 +29,7 @@ const styleIcon = (IconComponent) => styled(IconComponent)`
   }
 
   &:hover {
-    color: ${({ theme }) => theme.icon.primaryColor};
+    color: ${({ theme }) => theme.colors.secendary};
   }
 `;
 

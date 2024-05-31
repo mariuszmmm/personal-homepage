@@ -52,7 +52,7 @@ export const Name = styled.h1`
   font-size: 38px;
   line-height: 1.2;
   font-weight: ${({ theme }) => theme.fontWeight.heavy};
-  color: ${({ theme }) => theme.title?.color};
+  color: ${({ theme }) => theme.colors.textSecendary};
   letter-spacing: 0.05em;
   margin: 0 0 35px;
 

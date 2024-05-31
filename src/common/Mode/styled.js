@@ -43,7 +43,7 @@ export const Switch = styled.div`
   width: 48px;
   height: 26px;
   padding: 3px;
-  background-color: ${({ theme }) => theme.modeSwitch.backgroundColor};
+  background-color: ${({ theme }) => theme.colors.modeSwitch.background};
   border: 1px solid;
   border-radius: 13px;
 `;
@@ -66,5 +66,5 @@ export const IconWrapper = styled.div`
 `;
 
 export const Icon = styled(SunIcon)`
-  color: ${({ theme }) => theme.modeSwitch.color};
+  color: ${({ theme }) => theme.colors.modeSwitch.text};
 `;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { ReactComponent as DotImage } from "../../images/dot.svg";
 
 export const Dot = styled(DotImage)`
-  color: ${({ theme }) => theme.dot.color};
+  color: ${({ theme }) => theme.colors.secendary};
   width: 9px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.medium}px) {

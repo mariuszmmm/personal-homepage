@@ -33,107 +33,72 @@ const common = {
 
 export const themeLight = {
   ...common,
-  page: {
-    color: colorNames.slateGray,
-    primaryBackgroundColor: colorNames.whiteLilac,
-    secendaryBackgroundColor: colorNames.white,
-  },
-  modeSwitch: {
-    color: colorNames.white,
-    backgroundColor: colorNames.iron,
-  },
-  title: {
-    color: colorNames.mineShaf,
-  },
-  button: {
-    color: colorNames.white,
-    backgroundColor: colorNames.scienceBlue,
-    borderColor: colorNames.iron,
-    focusShadowColor: colorNames.anakiwa,
-    selectedShadowColor: colorNames.parsley,
-  },
-  line: {
-    primaryColor: colorNames.mercury,
-    secendaryColor: colorNames.iron,
-  },
-  dot: {
-    color: colorNames.scienceBlue,
-  },
-  icon: {
-    primaryColor: colorNames.scienceBlue,
-    secendaryColor: colorNames.mineShaf,
-  },
-  errorTitle: {
-    color: colorNames.mineShaf,
-  },
-  spinner: {
-    primaryColor: colorNames.scienceBlue,
-    secendaryColor: colorNames.iron,
-  },
-  tile: {
-    borderColor: colorNames.iron,
-    hoveredBorderColor: colorNames.scienceBlue_2,
-  },
-  tileTitle: {
-    color: colorNames.scienceBlue,
-  },
-  mail: {
-    primaryColor: colorNames.mineShaf,
-    secendaryColor: colorNames.scienceBlue,
-  },
-  link: {
-    color: colorNames.scienceBlue,
+  colors: {
+    primary: colorNames.mineShaf,
+    secendary: colorNames.scienceBlue,
+    textPrimary: colorNames.slateGray,
+    textSecendary: colorNames.mineShaf,
+    backgroundPrimary: colorNames.whiteLilac,
+    backgroundSecendary: colorNames.white,
+    modeSwitch: {
+      text: colorNames.white,
+      background: colorNames.iron,
+    },
+    button: {
+      text: colorNames.white,
+      background: colorNames.scienceBlue,
+      border: colorNames.iron,
+      focusShadow: colorNames.anakiwa,
+      selectedShadow: colorNames.parsley,
+    },
+    line: {
+      primary: colorNames.mercury,
+      secendary: colorNames.iron,
+    },
+    spinner: {
+      primary: colorNames.scienceBlue,
+      secendary: colorNames.iron,
+    },
+    tile: {
+      title: colorNames.scienceBlue,
+      border: colorNames.iron,
+      hoveredBorder: colorNames.scienceBlue_2,
+    },
   },
 };
 
 export const themeDark = {
   ...common,
-  page: {
-    color: colorNames.white,
-    primaryBackgroundColor: colorNames.mineShaf,
-    secendaryBackgroundColor: colorNames.mineShaf_2,
-  },
-  modeSwitch: {
-    color: colorNames.mineShaf,
-    backgroundColor: colorNames.doveGray,
-  },
-  button: {
-    color: colorNames.white,
-    backgroundColor: colorNames.dodgerBlue,
-    borderColor: colorNames.iron,
-    focusShadowColor: colorNames.shipCove,
-    selectedShadowColor: colorNames.parsley,
-  },
-  line: {
-    primaryColor: colorNames.mercury,
-    secendaryColor: colorNames.iron_2,
-  },
-  spinner: {
-    primaryColor: colorNames.dodgerBlue,
-    secendaryColor: colorNames.mineShaf_2,
-  },
-  dot: {
-    color: colorNames.dodgerBlue,
-  },
-  icon: {
-    primaryColor: colorNames.dodgerBlue,
-    secendaryColor: colorNames.white,
-  },
-  errorTitle: {
-    color: colorNames.white,
-  },
-  tile: {
-    borderColor: colorNames.iron_2,
-    hoveredBorderColor: colorNames.scienceBlue_3,
-  },
-  tileTitle: {
-    color: colorNames.white,
-  },
-  mail: {
-    primaryColor: colorNames.white,
-    secendaryColor: colorNames.dodgerBlue,
-  },
-  link: {
-    color: colorNames.dodgerBlue,
+  colors: {
+    primary: colorNames.white,
+    secendary: colorNames.dodgerBlue,
+    textPrimary: colorNames.white,
+    textSecendary: colorNames.white,
+    backgroundPrimary: colorNames.mineShaf,
+    backgroundSecendary: colorNames.mineShaf_2,
+    modeSwitch: {
+      text: colorNames.mineShaf,
+      background: colorNames.doveGray,
+    },
+    button: {
+      text: colorNames.white,
+      background: colorNames.dodgerBlue,
+      border: colorNames.iron,
+      focusShadow: colorNames.shipCove,
+      selectedShadow: colorNames.parsley,
+    },
+    line: {
+      primary: colorNames.mercury,
+      secendary: colorNames.iron_2,
+    },
+    spinner: {
+      primary: colorNames.dodgerBlue,
+      secendary: colorNames.mineShaf_2,
+    },
+    tile: {
+      title: colorNames.white,
+      border: colorNames.iron_2,
+      hoveredBorder: colorNames.scienceBlue_3,
+    },
   },
 };

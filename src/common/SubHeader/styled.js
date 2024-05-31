@@ -4,19 +4,19 @@ export const Header = styled.h3`
   font-weight: ${({ theme }) => theme.fontWeight.heavy};
   font-size: 30px;
   line-height: 1.2;
-  color: ${({ theme }) => theme.title?.color};
+  color: ${({ theme }) => theme.colors.textSecendary};
   letter-spacing: 0.05em;
   margin: 0 0 48px;
   gap: 16px;
   margin: 32px;
   padding-bottom: 18px;
   border-bottom: 1px solid;
-  border-color: ${({ theme }) => theme.line.primaryColor};
+  border-color: ${({ theme }) => theme.colors.line.primary};
 
   ${({ $skills }) =>
     $skills &&
     css`
-      border-color: ${({ theme }) => theme.line.secendaryColor};
+      border-color: ${({ theme }) => theme.colors.line.secendary};
       padding-bottom: 15px;
     `}
 

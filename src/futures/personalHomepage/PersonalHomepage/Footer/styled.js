@@ -28,7 +28,7 @@ export const Mail = styled.a`
   font-size: 32px;
   line-height: 1.2;
   font-weight: ${({ theme }) => theme.fontWeight.heavy};
-  color: ${({ theme }) => theme.mail.primaryColor};
+  color: ${({ theme }) => theme.colors.textSecendary};
   letter-spacing: 0.05em;
   margin: 0 0 24px;
   transition: color 0.3s ease-in-out;
@@ -41,12 +41,12 @@ export const Mail = styled.a`
   }
 
   &:hover {
-    color: ${({ theme }) => theme.mail.secendaryColor};
+    color: ${({ theme }) => theme.colors.secendary};
   }
 `;
 
 export const Description = styled.p`
-  color: ${({ theme }) => theme.title?.color};
+  color: ${({ theme }) => theme.colors.textSecendary};
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.05em;

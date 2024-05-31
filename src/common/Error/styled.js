@@ -10,7 +10,7 @@ export const ErrorWrapper = styled.div`
 `;
 
 export const DangerIcon = styled(Danger)`
-  color: ${({ theme }) => theme.errorTitle.color};
+  color: ${({ theme }) => theme.colors.textSecendary};
   margin-bottom: 16px;
 `;
 

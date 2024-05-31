@@ -7,15 +7,15 @@ export const Wrapper = styled.div`
   gap: 24px;
   padding: 50px;
   border: 6px solid;
-  border-color: ${({ theme }) => theme.tile.borderColor};
+  border-color: ${({ theme }) => theme.colors.tile.border};
   border-radius: 4px;
   background-color: ${({ $portfolio, theme }) =>
-    $portfolio ? "inherit" : theme.page.secendaryBackgroundColor};
+    $portfolio ? "inherit" : theme.colors.backgroundSecendary};
   transition: background 0.5s ease-in-out;
   transition: border-color 0.3s ease-in-out;
 
   &:hover {
-    border-color: ${({ theme }) => theme.tile.hoveredBorderColor};
+    border-color: ${({ theme }) => theme.colors.tile.hoveredBorder};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
@@ -59,9 +59,9 @@ export const Links = styled.div`
 `;
 
 export const Link = styled.a`
-  color: ${({ theme }) => theme.link.color};
+  color: ${({ theme }) => theme.colors.secendary};
   border-bottom: 1px solid;
-  border-color: ${({ theme }) => rgba(theme.link.color, 0.2)};
+  border-color: ${({ theme }) => rgba(theme.colors.secendary, 0.2)};
   line-height: 1.4;
   cursor: pointer;
   position: absolute;
@@ -74,7 +74,7 @@ export const Link = styled.a`
   text-decoration: none;
 
   &:hover {
-    border-color: ${({ theme }) => rgba(theme.link.color, 0.8)};
+    border-color: ${({ theme }) => rgba(theme.colors.secendary, 0.8)};
   }
 
   &:active {
@@ -100,7 +100,7 @@ export const Tooltip = styled.p`
   border: 2px solid currentColor;
   border-radius: 5px;
   padding: 0 5px;
-  background-color: ${({ theme }) => theme.page.primaryBackgroundColor};
+  background-color: ${({ theme }) => theme.colors.backgroundPrimary};
   display: ${({ $active }) => ($active ? "block" : "none")};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.medium}px) {

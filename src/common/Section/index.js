@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   background-color: ${({ $portfolio, theme }) =>
-    $portfolio ? "inherit" : theme.page.secendaryBackgroundColor};
+    $portfolio ? "inherit" : theme.colors.backgroundSecendary};
   margin: 0 -2px 72px;
   transition: background 0.5s ease-in-out;
   display: flex;
