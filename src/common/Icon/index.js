@@ -31,6 +31,10 @@ const styleIcon = (IconComponent) => styled(IconComponent)`
   &:hover {
     color: ${({ theme }) => theme.colors.secendary};
   }
+
+  &:active {
+    color: ${({ theme }) => theme.colors.primary};
+  }
 `;
 
 export const GithubIcon = styleIcon(Github);
