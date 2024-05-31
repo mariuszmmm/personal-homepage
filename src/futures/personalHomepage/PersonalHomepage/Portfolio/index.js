@@ -10,7 +10,7 @@ import {
   fetchRepositories,
   selectRepositories,
   selectState,
-} from "../personalHomepageSlice";
+} from "../../personalHomepageSlice";
 import { useEffect } from "react";
 
 export const Portfolio = () => {

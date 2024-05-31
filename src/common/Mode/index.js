@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { ModeContainer, ModeInfo, Icon, Switch, IconWrapper } from "./styled";
-import { selectMode, switchMode } from "./themeSlice";
+import { selectMode, switchMode } from "./modeSlice";
 
 export const Mode = () => {
   const dispatch = useDispatch();

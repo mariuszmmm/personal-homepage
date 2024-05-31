@@ -4,8 +4,8 @@ import {
   fetchRepositories,
   fetchSeccess,
 } from "./personalHomepageSlice";
-import { getRepositories } from "../../../api/getRepositories";
-import { person } from "../../../utils/person";
+import { getRepositories } from "../../api/getRepositories";
+import { person } from "../../utils/person";
 
 function* fetchData() {
   yield delay(2000);
