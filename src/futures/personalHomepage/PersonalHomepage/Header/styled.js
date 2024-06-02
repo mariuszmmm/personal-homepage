@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { ReactComponent as Message } from "../../../../images/message.svg";
+import { ReactComponent as Message } from "./images/message.svg";
 
-export const HeaderWrapper = styled.div`
+export const Wrapper = styled.header`
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;

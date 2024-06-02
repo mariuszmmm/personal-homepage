@@ -1,17 +1,7 @@
 import axios from "axios";
-import { url } from "./api";
+import { githubAPI } from "./api";
 
-export const getRepositories = async (username) => {
-  try {
-    const response = await axios.get(url(username));
-    return {
-      data: response.data,
-      status: response.status,
-    };
-  } catch (error) {
-    console.error("Error fetching repos:", error);
-    return {
-      status: error.response.status,
-    };
-  }
-};
+const reposURL = (username) => `${githubAPI}/users/${username}/repos`;
+
+export const getRepositories = (username) =>
+  axios.get(reposURL(username)).then((response) => response.data);

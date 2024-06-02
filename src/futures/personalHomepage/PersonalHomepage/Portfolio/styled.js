@@ -1,4 +1,5 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+import { ReactComponent as Github } from "../icons/github.svg";
 
 export const PortfolioHeader = styled.div`
   display: flex;
@@ -21,17 +22,8 @@ export const Header = styled.h3`
   }
 `;
 
-export const PortfolioContent = styled.div`
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 32px;
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
-    gap: 16px;
-  }
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.medium}px) {
-    grid-template-columns: 1fr;
-  }
+export const GithubIcon = styled(Github)`
+  width: 40px;
+  height: auto;
+  color: ${({ theme }) => theme.colors.secendary};
 `;

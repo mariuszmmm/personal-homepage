@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { ReactComponent as Danger } from "../../images/danger.svg";
-import { Text } from "../Text";
+import { ReactComponent as Danger } from "./danger.svg";
+import { Text } from "../../../Text";
 
-export const ErrorWrapper = styled.div`
+export const Wrapper = styled.div`
   margin: 64px 0 20px;
   display: flex;
   flex-direction: column;

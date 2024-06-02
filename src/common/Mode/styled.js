@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { ReactComponent as SunIcon } from "../../images/sunIcon.svg";
+import { ReactComponent as SunIcon } from "./sunIcon.svg";
 
 export const ModeContainer = styled.button`
   display: flex;

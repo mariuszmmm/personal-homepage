@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components";
-import { ReactComponent as Spinner } from "../../images/spinner.svg";
+import { ReactComponent as Spinner } from "./spinner.svg";
 
 export const LoadingWrapper = styled.div`
   margin: 64px 0 20px;

@@ -90,7 +90,8 @@ export const Link = styled.a`
 export const Tooltip = styled.p`
   margin: 0;
   position: absolute;
-  top: 30px;
+  bottom: 0;
+  transform: translateY(calc(100% + 5px));
   max-width: 80vw;
   right: ${({ $isEven }) => ($isEven ? "auto" : 0)};
   word-wrap: break-word;
@@ -104,7 +105,6 @@ export const Tooltip = styled.p`
   display: ${({ $active }) => ($active ? "block" : "none")};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.medium}px) {
-    top: 20px;
     right: auto;
   }
 `;

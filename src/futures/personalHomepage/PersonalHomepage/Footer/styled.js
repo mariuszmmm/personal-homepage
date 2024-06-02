@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const FooterWrapper = styled.div`
+export const Wrapper = styled.footer`
   display: flex;
   flex-direction: column;
   max-width: 670px;
@@ -59,21 +59,21 @@ export const Description = styled.p`
   }
 `;
 
-export const IconWrapper = styled.div`
-  display: flex;
-  gap: 24px;
+// export const IconWrapper = styled.div`
+//   display: flex;
+//   gap: 24px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
-    gap: 16px;
-  }
-`;
+//   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
+//     gap: 16px;
+//   }
+// `;
 
-export const Link = styled.a`
-  width: 48px;
-  height: 48px;
+// export const Link = styled.a`
+//   width: 48px;
+//   height: 48px;
 
-  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
-    width: 32px;
-    height: 32px;
-  }
-`;
+//   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
+//     width: 32px;
+//     height: 32px;
+//   }
+// `;

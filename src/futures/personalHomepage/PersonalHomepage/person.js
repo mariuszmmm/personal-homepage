@@ -6,19 +6,18 @@ export const person = {
   invitation:
     "I'm always open to new projects whenever I have time. If you're planning a website, dashboard, and need help bringing your ideas to life, feel free to contact me.",
   github: {
-    name: "mariuszmmm",
+    username: "mariuszmmm",
     link: "https://github.com/mariuszmmm",
-    exclusions: [
+    excludedRepositories: [
       { name: "mariuszmmm" },
       { name: "calculator" },
       { name: "photo-catalog-backend" },
     ],
   },
-  facebook: null,
-  linkedin: {
-    link: "https://www.linkedin.com/in/mariuszmatusiewicz",
+  socialLinks: {
+    github: "https://github.com/mariuszmmm",
+    linkedin: "https://www.linkedin.com/in/mariuszmatusiewicz",
   },
-  instagram: null,
   skills: [
     "Semantic and accessible HTML",
     "Responsive Web Design",

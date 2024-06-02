@@ -1,13 +1,13 @@
-import { Title } from "../Title";
-import { DangerIcon, ErrorWrapper, Info } from "./styled";
-import { ButtonLink } from "../ButtonLink";
-import { person } from "../../utils/person";
+import { Title } from "../../Title";
+import { DangerIcon, Wrapper, Info } from "./styled";
+import { ButtonLink } from "../../../ButtonLink";
+import { person } from "../../../person";
 
 export const Error = () => {
   const { link } = person.github;
 
   return (
-    <ErrorWrapper>
+    <Wrapper>
       <DangerIcon />
       <Title $error>Ooops! Something went wrong... </Title>
       <Info>
@@ -17,6 +17,6 @@ export const Error = () => {
       <ButtonLink href={link} target="_blank">
         Go to Github
       </ButtonLink>
-    </ErrorWrapper>
+    </Wrapper>
   );
 };

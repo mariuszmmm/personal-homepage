@@ -8,9 +8,6 @@ import { selectMode } from "../../common/Mode/modeSlice";
 
 const App = () => {
   const mode = useSelector(selectMode);
-  console.log("themeLight", themeLight);
-  console.log("themeDark", themeDark);
-
 
   return (
     <ThemeProvider theme={mode === "dark" ? themeDark : themeLight}>
