@@ -4,7 +4,7 @@ import {
   fetchRepositories,
   fetchSeccess,
 } from "./personalHomepageSlice";
-import { getRepositories } from "../../api/getRepositories";
+import { getRepositories } from "./personalHomepageAPI";
 
 function* fetchRepositoriesHandler({
   payload: { username, excludedRepositories },

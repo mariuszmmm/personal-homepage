@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
 import modeReducer from "../common/Mode/modeSlice";
-import personalHomepageReducer from "../futures/personalHomepage/personalHomepageSlice";
+import personalHomepageReducer from "../features/personalHomepage/personalHomepageSlice";
 import createSagaMiddleware from "redux-saga";
-import personalHomepageSaga from "../futures/personalHomepage/personalHomepageSaga";
+import personalHomepageSaga from "../features/personalHomepage/personalHomepageSaga";
 
 const sagaMiddleware = createSagaMiddleware();
 

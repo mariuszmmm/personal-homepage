@@ -1,9 +1,9 @@
-import { Section } from "../../../../common/Section/index.js";
-import { SubHeader } from "../../../../common/SubHeader/index.js";
+import { Section } from "../Section/index.js";
+import { SubHeader } from "../SubHeader/index.js";
 import tools from "./tools.png";
-import { List } from "../../../../common/List/index.js";
-import { ListItem } from "../../../../common/ListItem/index.js";
-import { Dot } from "../../../../common/ListItem/Dot";
+import { List } from "../List/index.js";
+import { ListItem } from "../List/ListItem/index.js";
+import { Dot } from "../List/ListItem/Dot/index.js";
 
 export const Skills = ({ skills }) => (
   <Section>

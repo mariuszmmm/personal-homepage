@@ -1,4 +1,4 @@
-import { Wrapper, Item, Link, Tooltip } from "./styled";
+import { Wrapper, Item, Link, Tooltip } from "./styled.js";
 import { socials } from "./socials.js";
 
 export const SocialIcons = () => (

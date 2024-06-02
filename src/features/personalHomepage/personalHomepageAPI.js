@@ -1,5 +1,5 @@
 import axios from "axios";
-import { githubAPI } from "./api";
+import { githubAPI } from "../../api/api";
 
 const reposURL = (username) => `${githubAPI}/users/${username}/repos`;
 

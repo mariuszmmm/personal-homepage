@@ -1,9 +1,9 @@
-import { Section } from "../../../../common/Section/index.js";
-import { SubHeader } from "../../../../common/SubHeader/index.js";
+import { Section } from "../Section";
+import { SubHeader } from "../SubHeader";
 import rocket from "./rocket.png";
-import { List } from "../../../../common/List/index.js";
-import { ListItem } from "../../../../common/ListItem/index.js";
-import { Dot } from "../../../../common/ListItem/Dot";
+import { List } from "../List";
+import { ListItem } from "../List/ListItem";
+import { Dot } from "../List/ListItem/Dot";
 
 export const ToLearn = ({ toLearn }) => (
   <Section>

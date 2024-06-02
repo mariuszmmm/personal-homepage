@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { GithubIcon } from "./styled";
-import { Section } from "../../../../common/Section";
+import { Section } from "../Section";
 import { Text } from "../Text";
 import { Header, PortfolioHeader } from "./styled";
 import {

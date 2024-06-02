@@ -1,4 +1,4 @@
-import { Wrapper } from "../../../common/Wrapper";
+import { Wrapper } from "./Wrapper";
 import { Mode } from "../../../common/Mode";
 import { Header } from "./Header";
 import { Footer } from "./Footer";

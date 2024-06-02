@@ -2,7 +2,7 @@ import { ThemeProvider } from "styled-components";
 import { themeDark, themeLight } from "./theme";
 import { Normalize } from "styled-normalize";
 import GlobalStyle from "./GlobalStyle";
-import { PersonalHomepage } from "../../futures/personalHomepage/PersonalHomepage";
+import { PersonalHomepage } from "../../features/personalHomepage/PersonalHomepage";
 import { useSelector } from "react-redux";
 import { selectMode } from "../../common/Mode/modeSlice";
 
