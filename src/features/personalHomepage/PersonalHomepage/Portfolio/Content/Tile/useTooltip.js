@@ -5,7 +5,7 @@ export const useTooltip = (setDemoIsHovered, setCodeIsHovered) => {
   const handleDemoMouseEnter = () => {
     hoverDemoTimeout = setTimeout(() => {
       setDemoIsHovered(true);
-    }, 1000);
+    }, 500);
 
     setTimeout(() => {
       setDemoIsHovered(false);
@@ -15,7 +15,7 @@ export const useTooltip = (setDemoIsHovered, setCodeIsHovered) => {
   const handleCodeMouseEnter = () => {
     hoverCodeTimeout = setTimeout(() => {
       setCodeIsHovered(true);
-    }, 1000);
+    }, 500);
 
     setTimeout(() => {
       setCodeIsHovered(false);

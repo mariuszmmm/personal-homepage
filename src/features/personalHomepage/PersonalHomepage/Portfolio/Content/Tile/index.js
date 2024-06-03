@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { useTooltip } from "./useTooltip";
-import { Link, Links, Text, Tooltip, Wrapper } from "./styled";
+import { Link, Links, Text, Wrapper } from "./styled";
 import { Title } from "../../Title";
+import { Tooltip } from "../../../Tooltip";
 
 export const Tile = ({ repo, index }) => {
   const [demoIsHovered, setDemoIsHovered] = useState(false);
@@ -31,7 +32,7 @@ export const Tile = ({ repo, index }) => {
               {repo.homepage}
             </Link>
           )}
-          <Tooltip $active={demoIsHovered} $isEven={isEven}>
+          <Tooltip $active={demoIsHovered} $moveToRight={!isEven}>
             {repo.homepage}
           </Tooltip>
         </Text>
@@ -47,7 +48,7 @@ export const Tile = ({ repo, index }) => {
               {repo.html_url}
             </Link>
           )}
-          <Tooltip $active={codeIsHovered} $isEven={isEven}>
+          <Tooltip $active={codeIsHovered} $moveToRight={!isEven}>
             {repo.html_url}
           </Tooltip>
         </Text>

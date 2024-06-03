@@ -1,20 +1,33 @@
-import { Wrapper, Item, Link, Tooltip } from "./styled.js";
+import { Wrapper, Item, Link } from "./styled.js";
 import { socials } from "./socials.js";
+import { Tooltip } from "../Tooltip";
+import { useState } from "react";
 
-export const SocialIcons = () => (
-  <Wrapper>
-    {socials.map(
-      ({ name, url, Icon }) =>
-        url && (
-          <>
-            <Item key={name}>
-              <Link href={url} title={name} target="_blank">
-                {Icon}
-              </Link>
-              {/* <Tooltip $active="true">{name}</Tooltip> */} 
-            </Item>
-          </>
-        )
-    )}
-  </Wrapper>
-);
+export const SocialIcons = () => {
+  const [hovered, setHovered] = useState();
+
+  return (
+    <Wrapper>
+      {socials.map(
+        ({ name, url, Icon }, index) =>
+          url && (
+            <>
+              <Item key={name}>
+                <Link
+                  href={url}
+                  target="_blank"
+                  onMouseEnter={() => setHovered(index)}
+                  onMouseLeave={() => setHovered(false)}
+                >
+                  {Icon}
+                </Link>
+                <Tooltip $active={index === hovered} $top>
+                  {name}
+                </Tooltip>
+              </Item>
+            </>
+          )
+      )}
+    </Wrapper>
+  );
+};

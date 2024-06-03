@@ -83,3 +83,8 @@ export const MessageIcon = styled(Message)`
     height: 20px;
   }
 `;
+
+export const ButtonWrapper = styled.div`
+  width: fit-content;
+  position: relative;
+`;

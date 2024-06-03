@@ -6,27 +6,43 @@ import {
   Name,
   Description,
   MessageIcon,
+  ButtonWrapper,
 } from "./styled";
 import foto from "./images/foto.jpg";
 import face from "./images/face.png";
 import laptop from "./images/laptop.png";
 import { Emoji } from "../Emoji";
 import { ButtonLink } from "../ButtonLink";
+import { Tooltip } from "../Tooltip";
+import { useState } from "react";
 
-export const Header = ({ name, email, description }) => (
-  <Wrapper>
-    <Image src={foto} alt={name} />
-    <Content>
-      <Caption>this is</Caption>
-      <Name>{name}</Name>
-      <Description>
-        <Emoji src={face} alt="" />
-        <Emoji src={laptop} alt="" />
-        {"  "}&nbsp;{description}
-      </Description>
-      <ButtonLink href={`mailto:${email}`}>
-        <MessageIcon /> Hire Me
-      </ButtonLink>
-    </Content>
-  </Wrapper>
-);
+export const Header = ({ name, email, description }) => {
+  const [hovered, setHovered] = useState();
+
+  return (
+    <Wrapper>
+      <Image src={foto} alt={name} />
+      <Content>
+        <Caption>this is</Caption>
+        <Name>{name}</Name>
+        <Description>
+          <Emoji src={face} alt="" />
+          <Emoji src={laptop} alt="" />
+          {"  "}&nbsp;{description}
+        </Description>
+        <ButtonWrapper>
+          <ButtonLink
+            href={`mailto:${email}`}
+            onMouseEnter={() => setHovered(true)}
+            onMouseLeave={() => setHovered(false)}
+          >
+            <MessageIcon /> Hire Me
+          </ButtonLink>
+          <Tooltip $active={hovered} $moveToRight>
+            {email}
+          </Tooltip>
+        </ButtonWrapper>
+      </Content>
+    </Wrapper>
+  );
+};
