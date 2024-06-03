@@ -1,3 +1,82 @@
+# Personal Homepage - Virtual CV 🚀🌟
+## Mariusz Matusiewicz 🙋🏻‍♂️
+
+Welcome to my virtual CV! This personal homepage project is a dynamic portfolio and CV built using modern web technologies to showcase my skills and projects, directly fetched from GitHub using an API.
+
+
+# Application Overview 👀✨
+
+## About Me 📸
+Interactive section with my profile picture and a brief introduction.
+
+## Theme Switcher 🌗
+You can switch between light and dark mode according to your preferences.
+
+## Skill Set 💼
+Detailed list of my current technological skills.
+
+## Learning Goals 🎯
+Section with information about skills I am currently learning.
+
+## GitHub Repositories 📂
+Dynamic tiles with live data from my GitHub repositories using the GitHub API.
+
+## Contact Section 📬
+Footer section containing links to my social media and email address.
+
+
+# Technologies Used 🛠️
+
+## React.js: 
+For building the user interface.
+
+## Redux Toolkit & Redux Saga: 
+For state management and handling asynchronous actions.
+
+## React Hooks: 
+Used for local state management and component lifecycle methods.
+
+## Styled-components: 
+For specific styling of components.
+
+## Figma: 
+Application design based on Figma mockups.
+
+## Create React App: 
+Project bootstrapping.
+
+## GitHub API: 
+For fetching the latest data from my repositories.
+
+## Axios: 
+For making HTTP requests to external APIs.
+
+## Error Handling: Handling errors to manage API failures.
+
+
+# Installation and Configuration 💻
+
+Clone the repository:
+```
+git clone https://github.com/mariuszmmm/personal-homepage.git
+```
+
+Navigate to the repository directory:
+```
+cd personal-homepage
+```
+
+Install dependencies:
+```
+npm install
+```
+
+Run the application:
+```
+npm start
+```
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
