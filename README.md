@@ -1,57 +1,58 @@
-# Personal Homepage - 🚀🌟
-## Mariusz Matusiewicz 🙋🏻‍♂️
+# Mariusz Matusiewicz 🙋🏻‍♂️ personal Homepage 🚀🌟
 
-Welcome to my virtual CV! This personal homepage project is a dynamic portfolio and CV built using modern web technologies to showcase my skills and projects, directly fetched from GitHub using an API.
+**Welcome to my virtual CV!**  
+**This personal homepage project is a dynamic portfolio and CV built using modern web technologies to showcase my skills and projects, directly fetched from GitHub using an API.**
 
 
-# Application Overview 👀✨
+## Application Overview 👀✨
 
-### About Me 📸
+* **About Me** 📸  
 Interactive section with my profile picture and a brief introduction.
 
-### Theme Switcher 🌗
+* **Theme Switcher** 🌗  
 You can switch between light and dark mode according to your preferences.
 
-### Skill Set 💼
+* **Skill Set** 💼  
 Detailed list of my current technological skills.
 
-### Learning Goals 🎯
+* **Learning Goals** 🎯  
 Section with information about skills I am currently learning.
 
-### GitHub Repositories 📂
+* **GitHub Repositories** 📂  
 Dynamic tiles with live data from my GitHub repositories using the GitHub API.
 
-### Contact Section 📬
+* **Contact Section** 📬  
 Footer section containing links to my social media and email address.
 
 
-# Technologies Used 🛠️
+## Technologies Used 🛠️
 
-### React.js: 
+* **React.js**    
 For building the user interface.
 
-### Redux Toolkit & Redux Saga: 
+* **Redux Toolkit & Redux Saga**   
 For state management and handling asynchronous actions.
 
-### React Hooks: 
+* **React Hooks**  
 Used for local state management and component lifecycle methods.
 
-### Styled-components: 
+* **Styled-components**  
 For specific styling of components.
 
-### Figma: 
+* **Figma** 
 Application design based on Figma mockups.
 
-### Create React App: 
+* **Create React App** 
 Project bootstrapping.
 
-### GitHub API: 
+* **GitHub API**  
 For fetching the latest data from my repositories.
 
-### Axios: 
+* **Axios**  
 For making HTTP requests to external APIs.
 
-### Error Handling: Handling errors to manage API failures.
+* **Error Handling**
+Handling errors to manage API failures.
 
 
 ![React](https://img.shields.io/badge/-React.js-61DAFB?style=flat-square&logo=react&logoColor=white)
