@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTooltip } from "./useTooltip";
 import { Link, Links, Text, Wrapper } from "./styled";
-import { Title } from "../../Title";
+import { Title } from "../Title";
 import { Tooltip } from "../../../Tooltip";
 
 export const Tile = ({ repo, index }) => {

@@ -7,6 +7,10 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.medium}px) {
+    margin: 20px 0;
+  }
 `;
 
 export const DangerIcon = styled(Danger)`

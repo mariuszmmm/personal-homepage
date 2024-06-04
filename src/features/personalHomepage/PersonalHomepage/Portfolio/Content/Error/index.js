@@ -1,4 +1,4 @@
-import { Title } from "../../Title";
+import { Title } from "../Title";
 import { DangerIcon, Wrapper, Info } from "./styled";
 import { ButtonLink } from "../../../ButtonLink";
 import { person } from "../../../person";

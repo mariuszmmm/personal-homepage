@@ -12,8 +12,8 @@ import { useEffect } from "react";
 import { Content } from "./Content";
 
 export const Portfolio = ({ username, excludedRepositories }) => {
-  const state = useSelector(selectState);
   const dispatch = useDispatch();
+  const state = useSelector(selectState);
   const repositories = useSelector(selectRepositories);
 
   useEffect(() => {

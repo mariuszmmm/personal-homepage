@@ -38,9 +38,7 @@ export const Header = ({ name, email, description }) => {
           >
             <MessageIcon /> Hire Me
           </ButtonLink>
-          <Tooltip $active={hovered} $moveToRight>
-            {email}
-          </Tooltip>
+          <Tooltip $active={hovered}>{email}</Tooltip>
         </ButtonWrapper>
       </Content>
     </Wrapper>

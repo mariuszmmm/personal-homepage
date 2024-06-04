@@ -58,22 +58,3 @@ export const Description = styled.p`
     margin: 0 0 40px;
   }
 `;
-
-// export const IconWrapper = styled.div`
-//   display: flex;
-//   gap: 24px;
-
-//   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
-//     gap: 16px;
-//   }
-// `;
-
-// export const Link = styled.a`
-//   width: 48px;
-//   height: 48px;
-
-//   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
-//     width: 32px;
-//     height: 32px;
-//   }
-// `;

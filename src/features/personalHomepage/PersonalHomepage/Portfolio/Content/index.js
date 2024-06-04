@@ -1,22 +1,17 @@
 import { Loading } from "./Loading";
-import { Error } from "./Error";
-import { PortfolioContent } from "./styled";
-import { Tile } from "./Tile";
+import { Error as ErrorComponent } from "./Error";
+import { Repositories } from "./Repositories";
 export const Content = ({ state, repositories }) => {
   switch (state) {
+    case "initial":
+      return null;
     case "loading":
       return <Loading />;
     case "error":
-      return <Error />;
+      return <ErrorComponent />;
     case "success":
-      return (
-        <PortfolioContent>
-          {repositories.map((repo, index) => (
-            <Tile key={repo.id} repo={repo} index={index} />
-          ))}
-        </PortfolioContent>
-      );
+      return <Repositories repositories={repositories} />;
     default:
-      return null;
+      throw new Error(`Unexpected state: ${state}`);
   }
 };

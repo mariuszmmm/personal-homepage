@@ -38,7 +38,6 @@ const styledIcon = (IconComponent) => styled(IconComponent)`
   height: auto;
   color: ${({ theme }) => theme.colors.primary};
   transition: color 0.3s ease-in-out;
-  cursor: pointer;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
     width: 32px;

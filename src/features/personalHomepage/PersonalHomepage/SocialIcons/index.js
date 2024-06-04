@@ -11,21 +11,19 @@ export const SocialIcons = () => {
       {socials.map(
         ({ name, url, Icon }, index) =>
           url && (
-            <>
-              <Item key={name}>
-                <Link
-                  href={url}
-                  target="_blank"
-                  onMouseEnter={() => setHovered(index)}
-                  onMouseLeave={() => setHovered(false)}
-                >
-                  {Icon}
-                </Link>
-                <Tooltip $active={index === hovered} $top>
-                  {name}
-                </Tooltip>
-              </Item>
-            </>
+            <Item key={name}>
+              <Link
+                href={url}
+                target="_blank"
+                onMouseEnter={() => setHovered(index)}
+                onMouseLeave={() => setHovered(false)}
+              >
+                {Icon}
+              </Link>
+              <Tooltip $active={index === hovered} $top>
+                {name}
+              </Tooltip>
+            </Item>
           )
       )}
     </Wrapper>

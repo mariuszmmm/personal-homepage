@@ -14,12 +14,14 @@ export const PersonalHomepage = () => {
     <Wrapper>
       <Mode />
       <Header name={name} email={email} description={description} />
-      <Skills skills={skills} />
-      <ToLearn toLearn={toLearn} />
-      <Portfolio
-        username={github.username}
-        excludedRepositories={github.excludedRepositories}
-      />
+      <main>
+        <Skills skills={skills} />
+        <ToLearn toLearn={toLearn} />
+        <Portfolio
+          username={github.username}
+          excludedRepositories={github.excludedRepositories}
+        />
+      </main>
       <Footer email={email} invitation={invitation} />
     </Wrapper>
   );
