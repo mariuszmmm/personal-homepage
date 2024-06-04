@@ -50,7 +50,7 @@ For making HTTP requests to external APIs.
 For managing project dependencies and scripts.
 
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&labelColor=353535)  
-Used for replicating the design.
+Utilized the Figma project as a basis for creating the application.
 
 ## Installation and Configuration 💻
 
