@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
   border: 6px solid;
   border-color: ${({ theme }) => theme.colors.tile.border};
   border-radius: 4px;
+  box-shadow: ${({ theme }) => theme.boxShadow};
   background-color: ${({ $portfolio, theme }) =>
     $portfolio ? "inherit" : theme.colors.backgroundSecendary};
   transition: background 0.5s ease-in-out;

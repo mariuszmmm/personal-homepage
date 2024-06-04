@@ -1,13 +1,13 @@
 const colorNames = {
-  white: "#FFFFFF",
-  whiteLilac: "#FBFBFE",
+  mineShaf: "#252525",
+  mineShaf_2: "#363636B8",
+  doveGray: "#6E6E6E",
   slateGray: "#6E7E91",
   iron: "#D1D5DA4D",
   iron_2: "#D1D5DA1A",
   mercury: "#E5E5E5",
-  mineShaf: "#252525",
-  mineShaf_2: "#363636B8",
-  doveGray: "#6E6E6E",
+  whiteLilac: "#FBFBFE",
+  white: "#FFFFFF",
   scienceBlue: "#0366D6",
   scienceBlue_2: "#0366D633",
   scienceBlue_3: "#0366D680",
@@ -29,6 +29,8 @@ const common = {
     medium: 768,
     large: 992,
   },
+  boxShadow:
+    "0px 16px 58px 0px rgba(9, 10, 51, 0.03), 0px -2px 50px 0px rgba(9, 10, 51, 0.02)",
 };
 
 export const themeLight = {
