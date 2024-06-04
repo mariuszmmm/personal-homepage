@@ -1,4 +1,4 @@
-# 🙋🏻‍♂️ Personal Homepage 🚀🌟
+# 🙋🏻‍♂️ Personal homepage 🚀🌟
 
 **Welcome to my virtual CV!**  
 *This personal homepage project is a dynamic portfolio and CV built using modern web technologies to showcase my skills and projects, directly fetched from GitHub using an API.*
@@ -50,7 +50,7 @@ For making HTTP requests to external APIs.
 For managing project dependencies and scripts.
 
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&labelColor=353535)  
-Used solely for replicating the application's design mockup.
+Used for replicating the design.
 
 ## Installation and Configuration 💻
 
