@@ -25,34 +25,32 @@
 
 ## Technologies Used 🛠️
 
-![React](https://img.shields.io/badge/React.js-61DAFB?logo=react&labelColor=353535)  
-For building the user interface.
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&labelColor=353535)  
+Framework for building the user interface and managing application logic.
 
 ![Redux](https://img.shields.io/badge/Redux-764ABC?logo=redux&labelColor=353535) ![Redux Saga](https://img.shields.io/badge/Redux%20Saga-999999?logo=reduxsaga&logoColor=white&labelColor=353535)  
-For state management and handling asynchronous actions.
+For managing the application state and handling asynchronous actions.
 
 ![React Hooks](https://img.shields.io/badge/React_Hooks-61DAFB?logo=react&labelColor=353535)  
-Used for local state management and component lifecycle methods.
+Used for managing component state and lifecycle.
 
 ![Styled Components](https://img.shields.io/badge/Styled%20Components-DB7093?logo=styledcomponents&labelColor=353535)  
-For specific styling of components.
-
-![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&labelColor=353535)  
-Application design based on Figma mockups.
+For styling React components using CSS-in-JS.
 
 ![Create React App](https://img.shields.io/badge/Create%20React%20App-09D3AC?logo=create-react-app&labelColor=353535)  
-Project bootstrapping.
+Tool for quickly starting a new React project.
 
 ![GitHub API](https://img.shields.io/badge/GitHub_API-181717?logo=github&labelColor=353535)  
-For fetching the latest data from my repositories.
+Allows fetching the latest data from repositories.
 
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&labelColor=353535)  
 For making HTTP requests to external APIs.
 
-![JavaScript ES6+](https://img.shields.io/badge/JavaScript%20ES6+-F7DF1E?logo=javascript&labelColor=353535)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&labelColor=353535)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&labelColor=353535)
-![npm](https://img.shields.io/badge/npm-CB1927?logo=npm&labelColor=353535)
+![npm](https://img.shields.io/badge/npm-CB1927?logo=npm&labelColor=353535)  
+For managing project dependencies and scripts.
+
+![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&labelColor=353535)  
+Used solely for replicating the application's design mockup.
 
 ## Installation and Configuration 💻
 
