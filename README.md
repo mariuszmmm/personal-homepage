@@ -1,72 +1,58 @@
-# Mariusz Matusiewicz 🙋🏻‍♂️ personal Homepage 🚀🌟
+# 🙋🏻‍♂️ Personal Homepage 🚀🌟
 
 **Welcome to my virtual CV!**  
 **This personal homepage project is a dynamic portfolio and CV built using modern web technologies to showcase my skills and projects, directly fetched from GitHub using an API.**
 
+## Application Overview 👀
 
-## Application Overview 👀✨
+- **About Me** 📸  
+  Interactive section with my profile picture and a brief introduction.
 
-* **About Me** 📸  
-Interactive section with my profile picture and a brief introduction.
+- **Theme Switcher** 🌗  
+  You can switch between light and dark mode according to your preferences.
 
-* **Theme Switcher** 🌗  
-You can switch between light and dark mode according to your preferences.
+- **Skill Set** 💼  
+  Detailed list of my current technological skills.
 
-* **Skill Set** 💼  
-Detailed list of my current technological skills.
+- **Learning Goals** 🎯  
+  Section with information about skills I am currently learning.
 
-* **Learning Goals** 🎯  
-Section with information about skills I am currently learning.
+- **GitHub Repositories** 📂  
+  Dynamic tiles with live data from my GitHub repositories using the GitHub API.
 
-* **GitHub Repositories** 📂  
-Dynamic tiles with live data from my GitHub repositories using the GitHub API.
-
-* **Contact Section** 📬  
-Footer section containing links to my social media and email address.
-
+- **Contact Section** 📬  
+  Footer section containing links to my social media and email address.
 
 ## Technologies Used 🛠️
 
-* **React.js**    
+![React](https://img.shields.io/badge/React.js-61DAFB?logo=react&labelColor=353535)  
 For building the user interface.
 
-* **Redux Toolkit & Redux Saga**   
+![Redux](https://img.shields.io/badge/Redux-764ABC?logo=redux&labelColor=353535) ![Redux Saga](https://img.shields.io/badge/Redux%20Saga-999999?logo=reduxsaga&logoColor=white&labelColor=353535)  
 For state management and handling asynchronous actions.
 
-* **React Hooks**  
+![React Hooks](https://img.shields.io/badge/React_Hooks-61DAFB?logo=react&labelColor=353535)  
 Used for local state management and component lifecycle methods.
 
-* **Styled-components**  
+![Styled Components](https://img.shields.io/badge/Styled%20Components-DB7093?logo=styledcomponents&labelColor=353535)  
 For specific styling of components.
 
-* **Figma** 
+![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&labelColor=353535)  
 Application design based on Figma mockups.
 
-* **Create React App** 
+![Create React App](https://img.shields.io/badge/Create%20React%20App-09D3AC?logo=create-react-app&labelColor=353535)  
 Project bootstrapping.
 
-* **GitHub API**  
+![GitHub API](https://img.shields.io/badge/GitHub_API-181717?logo=github&labelColor=353535)  
 For fetching the latest data from my repositories.
 
-* **Axios**  
+![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&labelColor=353535)  
 For making HTTP requests to external APIs.
 
-* **Error Handling**
-Handling errors to manage API failures.
-
-
-![React](https://img.shields.io/badge/-React.js-61DAFB?style=flat-square&logo=react&logoColor=white)
-![Redux](https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
-![Redux Saga](https://img.shields.io/badge/-Redux%20Saga-999999?style=flat-square&logo=redux-saga&logoColor=white)
-![Styled Components](https://img.shields.io/badge/-Styled_components-DB7093?style=flat-square&logo=styled-components&logoColor=white)
-![JavaScript ES6+](https://img.shields.io/badge/-JavaScript_ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![Create React App](https://img.shields.io/badge/-Create_React_App-09D3AC?style=flat-square&logo=create-react-app&logoColor=white)
-![GitHub API](https://img.shields.io/badge/-GitHub_API-181717?style=flat-square&logo=github&logoColor=white)
-![Axios](https://img.shields.io/badge/-Axios-5A29E4?style=flat-square&logo=axios&logoColor=white)
-![npm](https://img.shields.io/badge/-npm-CB3837?style=flat-square&logo=npm&logoColor=white)
+![JavaScript ES6+](https://img.shields.io/badge/JavaScript%20ES6+-F7DF1E?logo=javascript&labelColor=353535)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&labelColor=353535)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&labelColor=353535)
+![npm](https://img.shields.io/badge/npm-CB1927?logo=npm&labelColor=353535)
 
 ## Installation and Configuration 💻
 
