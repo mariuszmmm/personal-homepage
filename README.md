@@ -28,26 +28,29 @@
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&labelColor=353535)  
 Framework for building the user interface and managing application logic.
 
-![Redux](https://img.shields.io/badge/Redux-764ABC?logo=redux&labelColor=353535) ![Redux Saga](https://img.shields.io/badge/Redux%20Saga-999999?logo=reduxsaga&logoColor=white&labelColor=353535)  
-For managing the application state and handling asynchronous actions.
+![Redux Toolkit](https://img.shields.io/badge/Redux-764ABC?logo=redux&labelColor=353535)  
+Utility library used to simplify Redux logic, including store setup, reducing boilerplate code, and managing slices of state.
+
+![Redux Saga](https://img.shields.io/badge/Redux%20Saga-999999?logo=reduxsaga&logoColor=white&labelColor=353535)  
+Middleware used for handling asynchronous actions in Redux.
 
 ![React Hooks](https://img.shields.io/badge/React_Hooks-61DAFB?logo=react&labelColor=353535)  
-Used for managing component state and lifecycle.
+Utilized for managing component state and lifecycle methods.
 
 ![Styled Components](https://img.shields.io/badge/Styled%20Components-DB7093?logo=styledcomponents&labelColor=353535)  
-For styling React components using CSS-in-JS.
+Used for styling React components using CSS-in-JS.
 
 ![Create React App](https://img.shields.io/badge/Create%20React%20App-09D3AC?logo=create-react-app&labelColor=353535)  
-Tool for quickly starting a new React project.
+Utilized for quickly bootstrapping a new React project.
 
 ![GitHub API](https://img.shields.io/badge/GitHub_API-181717?logo=github&labelColor=353535)  
-Allows fetching the latest data from repositories.
+Utilized for fetching the latest data from repositories.
 
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&labelColor=353535)  
-For making HTTP requests to external APIs.
+Used for making HTTP requests to external APIs.
 
 ![npm](https://img.shields.io/badge/npm-CB1927?logo=npm&labelColor=353535)  
-For managing project dependencies and scripts.
+Utilized for managing project dependencies and scripts.
 
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&labelColor=353535)  
 Utilized the Figma project as a basis for creating the application.
