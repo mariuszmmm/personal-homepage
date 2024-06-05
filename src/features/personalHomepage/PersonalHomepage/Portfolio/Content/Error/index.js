@@ -1,10 +1,10 @@
 import { Title } from "../Title";
 import { DangerIcon, Wrapper, Info } from "./styled";
 import { ButtonLink } from "../../../ButtonLink";
-import { person } from "../../../person";
+import { personData } from "../../../personData";
 
 export const Error = () => {
-  const { link } = person.github;
+  const { github } = personData.socialLinks;
 
   return (
     <Wrapper>
@@ -14,7 +14,7 @@ export const Error = () => {
         Sorry, failed to load Github projects.
         <br /> You can check them directly on Github.
       </Info>
-      <ButtonLink href={link} target="_blank">
+      <ButtonLink href={github} target="_blank">
         Go to Github
       </ButtonLink>
     </Wrapper>

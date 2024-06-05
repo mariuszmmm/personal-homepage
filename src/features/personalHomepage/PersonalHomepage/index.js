@@ -5,11 +5,11 @@ import { Footer } from "./Footer";
 import { Skills } from "./Skills";
 import { ToLearn } from "./ToLearn";
 import { Portfolio } from "./Portfolio";
-import { person } from "./person";
+import { personData } from "./personData";
 
 export const PersonalHomepage = () => {
-  const { name, email, description, skills, toLearn, github, invitation } =
-    person;
+  const { name, email, description, skills, toLearn, githubData, invitation } =
+    personData;
   return (
     <Wrapper>
       <Mode />
@@ -17,10 +17,7 @@ export const PersonalHomepage = () => {
       <main>
         <Skills skills={skills} />
         <ToLearn toLearn={toLearn} />
-        <Portfolio
-          username={github.username}
-          excludedRepositories={github.excludedRepositories}
-        />
+        <Portfolio githubData={githubData} />
       </main>
       <Footer email={email} invitation={invitation} />
     </Wrapper>

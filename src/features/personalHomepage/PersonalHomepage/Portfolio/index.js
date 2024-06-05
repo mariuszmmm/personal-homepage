@@ -11,16 +11,14 @@ import {
 import { useEffect } from "react";
 import { Content } from "./Content";
 
-export const Portfolio = ({ username, excludedRepositories }) => {
+export const Portfolio = ({ githubData }) => {
   const dispatch = useDispatch();
   const state = useSelector(selectState);
   const repositories = useSelector(selectRepositories);
 
   useEffect(() => {
-    dispatch(fetchRepositories({ username, excludedRepositories }));
-
-    // eslint-disable-next-line
-  }, []);
+    dispatch(fetchRepositories(githubData));
+  }, [dispatch, githubData]);
 
   return (
     <Section $portfolio>

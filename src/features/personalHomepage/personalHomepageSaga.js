@@ -1,22 +1,16 @@
 import { call, delay, put, takeEvery } from "redux-saga/effects";
+import { getRepositories } from "./personalHomepageAPI";
 import {
   fetchError,
   fetchRepositories,
   fetchSeccess,
 } from "./personalHomepageSlice";
-import { getRepositories } from "./personalHomepageAPI";
 
-function* fetchRepositoriesHandler({
-  payload: { username, excludedRepositories },
-}) {
+function* fetchRepositoriesHandler({ payload: { username, topic } }) {
   try {
     yield delay(2000);
-    const response = yield call(getRepositories, username);
-    const repositories = response.filter(
-      (repo) =>
-        !excludedRepositories.some((excluded) => excluded.name === repo.name)
-    );
-    yield put(fetchSeccess(repositories));
+    const response = yield call(getRepositories, { username, topic });
+    yield put(fetchSeccess(response));
   } catch {
     yield put(fetchError());
   }

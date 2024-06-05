@@ -4,9 +4,9 @@ import {
   InstagramIcon,
   LinkedInIcon,
 } from "./styled";
-import { person } from "../person";
+import { personData } from "../personData";
 
-const { socialLinks } = person;
+const { socialLinks } = personData;
 
 export const socials = [
   {

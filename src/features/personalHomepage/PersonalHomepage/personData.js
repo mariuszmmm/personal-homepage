@@ -1,18 +1,13 @@
-export const person = {
+export const personData = {
   name: "Mariusz Matusiewicz",
   email: "mariusz.myprojects@gmail.com",
   description:
     "I'm passionate about frontend development, especially using React. My goal is to develop my skills and turn this passion into additional work.",
   invitation:
     "I'm always open to new projects whenever I have time. If you're planning a website, dashboard, and need help bringing your ideas to life, feel free to contact me.",
-  github: {
+  githubData: {
     username: "mariuszmmm",
-    link: "https://github.com/mariuszmmm",
-    excludedRepositories: [
-      { name: "mariuszmmm" },
-      { name: "calculator" },
-      { name: "photo-catalog-backend" },
-    ],
+    topic: "public-repo",
   },
   socialLinks: {
     github: "https://github.com/mariuszmmm",
