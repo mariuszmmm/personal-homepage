@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const List = styled.ul`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 8px;
   padding: 0;
   margin: 0 32px 32px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     margin: 0 16px 16px;
   }
 

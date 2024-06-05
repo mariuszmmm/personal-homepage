@@ -9,9 +9,6 @@ export const LoadingWrapper = styled.div`
 `;
 
 const spin = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
   to {
     transform: rotate(360deg);
   }
@@ -20,7 +17,7 @@ const spin = keyframes`
 export const SpinnerIcon = styled(Spinner)`
   margin-top: 24px;
   color: ${({ theme }) => theme.colors.spinner.primary};
-  animation: ${spin} 1.5s linear infinite;
+  animation: ${spin} 1s linear infinite;
 
   circle {
     color: ${({ theme }) => theme.colors.spinner.secendary};
