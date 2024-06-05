@@ -28,14 +28,14 @@
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&labelColor=353535)  
 Framework for building the user interface and managing application logic.
 
-![Redux Toolkit](https://img.shields.io/badge/Redux-764ABC?logo=redux&labelColor=353535)  
+![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?logo=Redux&labelColor=353535)  
 Utility library used to simplify Redux logic, including store setup, reducing boilerplate code, and managing slices of state.
 
 ![Redux Saga](https://img.shields.io/badge/Redux%20Saga-999999?logo=reduxsaga&logoColor=white&labelColor=353535)  
 Middleware used for handling asynchronous actions in Redux.
 
 ![React Hooks](https://img.shields.io/badge/React_Hooks-61DAFB?logo=react&labelColor=353535)  
-Utilized for managing component state and lifecycle methods.
+Utilized for managing component state and lifecycle methods. 
 
 ![Styled Components](https://img.shields.io/badge/Styled%20Components-DB7093?logo=styledcomponents&labelColor=353535)  
 Used for styling React components using CSS-in-JS.
