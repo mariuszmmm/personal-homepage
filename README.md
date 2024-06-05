@@ -1,7 +1,7 @@
-# 🙋🏻‍♂️ [Personal homepage](https://myprojects.pl/) 🚀🌟
+# 🙋🏻‍♂️ Personal homepage 🚀🌟
 
 **Welcome to my virtual CV!**  
-*This personal homepage project is a dynamic portfolio and CV built using modern web technologies to showcase my skills and projects, directly fetched from GitHub using an API.*
+*This [personal homepage](https://myprojects.pl/) project is a dynamic portfolio and CV built using modern web technologies to showcase my skills and projects, directly fetched from GitHub using an API.*
 
 ## Application Overview 👀
 
