@@ -1,7 +1,7 @@
 # 🙋🏻‍♂️ Personal homepage 🚀🌟
 
 **Welcome to my virtual CV!**  
-*This [personal homepage](https://myprojects.pl/) project is a dynamic portfolio and CV built using modern web technologies to showcase my skills and projects, directly fetched from GitHub using an API.*
+_This [personal homepage](https://myprojects.pl/) project is a dynamic portfolio and CV built using modern web technologies to showcase my skills and projects, directly fetched from GitHub using an API._
 
 ## Application Overview 👀
 
@@ -28,31 +28,31 @@
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&labelColor=353535)  
 Framework for building the user interface and managing application logic.
 
-![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?logo=Redux&labelColor=353535)  
+![Redux Toolkit](<https://img.shields.io/badge/Redux_(_toolkit_)-75D67E?logo=redux&labelColor=353535&logoColor=75D67E>)  
 Utility library used to simplify Redux logic, including store setup, reducing boilerplate code, and managing slices of state.
 
-![Redux Saga](https://img.shields.io/badge/Redux%20Saga-999999?logo=reduxsaga&logoColor=white&labelColor=353535)  
+![Redux Saga](https://img.shields.io/badge/Redux_Saga-75D67E?logo=reduxsaga&labelColor=353535&logoColor=75D67E)  
 Middleware used for handling asynchronous actions in Redux.
 
-![React Hooks](https://img.shields.io/badge/React_Hooks-61DAFB?logo=react&labelColor=353535)  
-Utilized for managing component state and lifecycle methods. 
+![React Hooks](<https://img.shields.io/badge/React_(_hooks_)-61DAFB?logo=react&labelColor=353535>)  
+Utilized for managing component state and lifecycle methods.
 
-![Styled Components](https://img.shields.io/badge/Styled%20Components-DB7093?logo=styledcomponents&labelColor=353535)  
+![Styled Components](https://img.shields.io/badge/Styled%20Components-DB7093?logo=styledcomponents&labelColor=353535&logoColor=DB7093)  
 Used for styling React components using CSS-in-JS.
 
-![Create React App](https://img.shields.io/badge/Create%20React%20App-09D3AC?logo=create-react-app&labelColor=353535)  
+![Create React App](https://img.shields.io/badge/Create_React_App-61DAFB?logo=create-react-app&labelColor=353535&logoColor=61DAFB)  
 Utilized for quickly bootstrapping a new React project.
 
 ![GitHub API](https://img.shields.io/badge/GitHub_API-181717?logo=github&labelColor=353535)  
 Utilized for fetching the latest data from repositories.
 
-![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&labelColor=353535)  
+![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&labelColor=353535&logoColor=5A29E4)  
 Used for making HTTP requests to external APIs.
 
-![npm](https://img.shields.io/badge/npm-CB1927?logo=npm&labelColor=353535)  
+![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&labelColor=353535&logoColor=CB3837)  
 Utilized for managing project dependencies and scripts.
 
-![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&labelColor=353535)  
+![Figma](https://img.shields.io/badge/Figma-0ACF83?logo=figma&labelColor=353535&logoColor=0ACF83)  
 Utilized the Figma project as a basis for creating the application.
 
 ## Installation and Configuration 💻
