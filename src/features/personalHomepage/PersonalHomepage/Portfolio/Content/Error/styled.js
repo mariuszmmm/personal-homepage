@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as Danger } from "./danger.svg";
+import { ReactComponent as Danger } from "../../../images/danger.svg";
 import { Text } from "../../../Text";
 
 export const Wrapper = styled.div`

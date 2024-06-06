@@ -1,5 +1,5 @@
 import { Caption, Wrapper, Description, Mail } from "./styled";
-import crossedFingers from "./crossedFingers.svg";
+import crossedFingers from "../images/crossedFingers.svg";
 import { Emoji } from "../Emoji";
 import { SocialIcons } from "../SocialIcons";
 

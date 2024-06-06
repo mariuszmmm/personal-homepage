@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as DotImage } from "./dot.svg";
+import { ReactComponent as DotImage } from "../../../../images/dot.svg";
 
 export const Dot = styled(DotImage)`
   color: ${({ theme }) => theme.colors.secendary};

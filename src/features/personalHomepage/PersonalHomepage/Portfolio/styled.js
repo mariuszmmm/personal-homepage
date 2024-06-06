@@ -1,5 +1,5 @@
-import styled, { css } from "styled-components";
-import { ReactComponent as Github } from "../icons/github.svg";
+import styled from "styled-components";
+import { ReactComponent as Github } from "../images/github.svg";
 
 export const PortfolioHeader = styled.div`
   display: flex;

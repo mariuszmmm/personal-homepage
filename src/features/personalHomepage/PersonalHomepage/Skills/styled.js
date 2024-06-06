@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-export const Header = styled.h3`
+export const SubHeader = styled.h3`
   font-weight: ${({ theme }) => theme.fontWeight.heavy};
   font-size: 30px;
   line-height: 1.2;
@@ -13,8 +13,8 @@ export const Header = styled.h3`
   border-bottom: 1px solid;
   border-color: ${({ theme }) => theme.colors.line.primary};
 
-  ${({ $skills }) =>
-    $skills &&
+  ${({ $line }) =>
+    $line &&
     css`
       border-color: ${({ theme }) => theme.colors.line.secendary};
       padding-bottom: 15px;
@@ -26,15 +26,5 @@ export const Header = styled.h3`
     gap: 12px;
     margin: 16px 16px 12px;
     padding-bottom: 12px;
-  }
-`;
-
-export const Icon = styled.img`
-  margin-left: 16px;
-  width: 24px;
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.large}px) {
-    margin-left: 12px;
-    width: 16px;
   }
 `;

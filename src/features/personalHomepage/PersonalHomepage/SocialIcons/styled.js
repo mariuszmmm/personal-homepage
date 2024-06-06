@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { ReactComponent as Github } from "../icons/github.svg";
-import { ReactComponent as Facebook } from "../icons/facebook.svg";
-import { ReactComponent as LinkedIn } from "../icons/linkedIn.svg";
-import { ReactComponent as Instagram } from "../icons/instagram.svg";
+import { ReactComponent as Github } from "../images/github.svg";
+import { ReactComponent as Facebook } from "../images/facebook.svg";
+import { ReactComponent as LinkedIn } from "../images/linkedIn.svg";
+import { ReactComponent as Instagram } from "../images/instagram.svg";
 
 export const Wrapper = styled.ul`
   margin: 0;

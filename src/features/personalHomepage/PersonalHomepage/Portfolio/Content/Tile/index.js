@@ -41,16 +41,14 @@ export const Tile = ({ repo, index }) => {
         </Text>
         <Text>
           <span>Code:</span>
-          {html_url && (
-            <Link
-              href={html_url}
-              target="_blank"
-              onMouseEnter={handleCodeMouseEnter}
-              onMouseLeave={handleCodeMouseLeave}
-            >
-              {html_url}
-            </Link>
-          )}
+          <Link
+            href={html_url}
+            target="_blank"
+            onMouseEnter={handleCodeMouseEnter}
+            onMouseLeave={handleCodeMouseLeave}
+          >
+            {html_url}
+          </Link>
           <Tooltip $active={codeIsHovered} $moveToRight={!isEven}>
             {html_url}
           </Tooltip>

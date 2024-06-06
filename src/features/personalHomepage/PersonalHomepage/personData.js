@@ -4,7 +4,7 @@ export const personData = {
   description:
     "I'm passionate about frontend development, especially using React. My goal is to develop my skills and turn this passion into additional work.",
   invitation:
-    "I'm always open to new projects whenever I have time. If you're planning a website, dashboard, and need help bringing your ideas to life, feel free to contact me.",
+    "I'm always open to new projects whenever I have time. If you're planning a website, dashboard, and need help bringing your ideas to life, feel free to contact me",
   githubData: {
     username: "mariuszmmm",
     topic: "public-repo",

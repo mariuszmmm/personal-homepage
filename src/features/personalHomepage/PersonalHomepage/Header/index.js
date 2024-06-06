@@ -8,9 +8,9 @@ import {
   MessageIcon,
   ButtonWrapper,
 } from "./styled";
-import foto from "./images/foto.jpg";
-import face from "./images/face.png";
-import laptop from "./images/laptop.png";
+import foto from "../images/foto.jpg";
+import face from "../images/face.png";
+import laptop from "../images/laptop.png";
 import { Emoji } from "../Emoji";
 import { ButtonLink } from "../ButtonLink";
 import { Tooltip } from "../Tooltip";

@@ -19,9 +19,6 @@ export const ListItem = styled.li`
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.small}px) {
-    font-size: 14px;
-    line-height: 1.2;
-    gap: 8px;
     padding-right: 0;
   }
 `;

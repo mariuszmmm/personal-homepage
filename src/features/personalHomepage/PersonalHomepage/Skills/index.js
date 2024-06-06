@@ -1,13 +1,16 @@
-import { Section } from "../Section/index.js";
-import { SubHeader } from "../SubHeader/index.js";
-import tools from "./tools.png";
-import { List } from "../List/index.js";
-import { ListItem } from "../List/ListItem/index.js";
-import { Dot } from "../List/ListItem/Dot/index.js";
+import { Section } from "../Section";
+import { SubHeader } from "./styled.js";
+import { List } from "./List";
+import { ListItem } from "./List/ListItem";
+import { Dot } from "./List/ListItem/Dot";
+import { Emoji } from "../Emoji";
 
-export const Skills = ({ skills }) => (
+export const Skills = ({ title, src, skills, line }) => (
   <Section>
-    <SubHeader title={"My skillset includes"} src={tools} alt="" skills />
+    <SubHeader $skills={skills} $line={line}>
+      {title}
+      {src && <Emoji src={src} alt="" $skill />}
+    </SubHeader>
     <List>
       {skills.map((item, index) => (
         <ListItem key={index}>
