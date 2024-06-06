@@ -14,42 +14,45 @@ export const Tile = ({ repo, index }) => {
     handleCodeMouseLeave,
   } = useTooltip(setDemoIsHovered, setCodeIsHovered);
   const isEven = index % 2 === 0;
+  const { name, description, homepage, html_url } = repo;
 
   return (
     <Wrapper>
-      <Title>{repo.name}</Title>
-      <Text>{repo.description}</Text>
+      <Title>{name}</Title>
+      {description && <Text>{description}</Text>}
       <Links>
         <Text>
-          <span>Demo:</span>
-          {repo.homepage && (
-            <Link
-              href={repo.homepage}
-              target="_blank"
-              onMouseEnter={handleDemoMouseEnter}
-              onMouseLeave={handleDemoMouseLeave}
-            >
-              {repo.homepage}
-            </Link>
+          {homepage && (
+            <>
+              <span>Demo:</span>
+              <Link
+                href={homepage}
+                target="_blank"
+                onMouseEnter={handleDemoMouseEnter}
+                onMouseLeave={handleDemoMouseLeave}
+              >
+                {homepage}
+              </Link>
+            </>
           )}
           <Tooltip $active={demoIsHovered} $moveToRight={!isEven}>
-            {repo.homepage}
+            {homepage}
           </Tooltip>
         </Text>
         <Text>
           <span>Code:</span>
-          {repo.html_url && (
+          {html_url && (
             <Link
-              href={repo.html_url}
+              href={html_url}
               target="_blank"
               onMouseEnter={handleCodeMouseEnter}
               onMouseLeave={handleCodeMouseLeave}
             >
-              {repo.html_url}
+              {html_url}
             </Link>
           )}
           <Tooltip $active={codeIsHovered} $moveToRight={!isEven}>
-            {repo.html_url}
+            {html_url}
           </Tooltip>
         </Text>
       </Links>
