@@ -25,34 +25,34 @@ _This [personal homepage](https://myprojects.pl/) project is a dynamic portfolio
 
 ## Technologies Used 🛠️
 
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&labelColor=353535)  
+![React](https://img.shields.io/badge/React-4dd8ff?logo=react&logoColor=4dd8ff&labelColor=121212)  
 Framework for building the user interface and managing application logic.
 
-![Redux Toolkit](<https://img.shields.io/badge/Redux_(_toolkit_)-75D67E?logo=redux&labelColor=353535&logoColor=75D67E>)  
+![Redux Toolkit](<https://img.shields.io/badge/Redux_(_toolkit_)-7033cc?logo=redux&logoColor=895cd6&labelColor=121212>)  
 Utility library used to simplify Redux logic, including store setup, reducing boilerplate code, and managing slices of state.
 
-![Redux Saga](https://img.shields.io/badge/Redux_Saga-75D67E?logo=reduxsaga&labelColor=353535&logoColor=75D67E)  
+![Redux Saga](https://img.shields.io/badge/Redux_Saga-76E34F?logo=reduxsaga&logoColor=76E34F&labelColor=121212)  
 Middleware used for handling asynchronous actions in Redux.
 
-![React Hooks](<https://img.shields.io/badge/React_(_hooks_)-61DAFB?logo=react&labelColor=353535>)  
+![React Hooks](<https://img.shields.io/badge/React_(_hooks_)-4dd8ff?logo=react&logoColor=4dd8ff&labelColor=121212>)  
 Utilized for managing component state and lifecycle methods.
 
-![Styled Components](https://img.shields.io/badge/Styled%20Components-DB7093?logo=styledcomponents&labelColor=353535&logoColor=DB7093)  
+![Styled Components](https://img.shields.io/badge/Styled%20Components-F91F68?logo=styledcomponents&logoColor=fa3879&labelColor=121212)  
 Used for styling React components using CSS-in-JS.
 
-![Create React App](https://img.shields.io/badge/Create_React_App-61DAFB?logo=create-react-app&labelColor=353535&logoColor=61DAFB)  
+![Create React App](https://img.shields.io/badge/Create_React_App-4dd8ff?logo=create-react-app&logoColor=4dd8ff&labelColor=121212)  
 Utilized for quickly bootstrapping a new React project.
 
-![GitHub API](https://img.shields.io/badge/GitHub_API-181717?logo=github&labelColor=353535)  
+![GitHub API](https://img.shields.io/badge/GitHub_API-1f1f1f?logo=github&logoColor=fff&labelColor=121212)  
 Utilized for fetching the latest data from repositories.
 
-![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&labelColor=353535&logoColor=5A29E4)  
+![Axios](https://img.shields.io/badge/Axios-5f26d0?logo=axios&logoColor=8253df&labelColor=121212)  
 Used for making HTTP requests to external APIs.
 
-![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&labelColor=353535&logoColor=CB3837)  
+![npm](https://img.shields.io/badge/npm-d00908?logo=npm&logoColor=f00909&labelColor=121212)  
 Utilized for managing project dependencies and scripts.
 
-![Figma](https://img.shields.io/badge/Figma-0ACF83?logo=figma&labelColor=353535&logoColor=0ACF83)  
+![Figma](https://img.shields.io/badge/Figma-f25425?logo=figma&logoColor=f25425&labelColor=121212)  
 Utilized the Figma project as a basis for creating the application.
 
 ## Installation and Configuration 💻
