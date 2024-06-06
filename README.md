@@ -28,13 +28,13 @@ _This [personal homepage](https://myprojects.pl/) project is a dynamic portfolio
 ![React](https://img.shields.io/badge/React-4dd8ff?logo=react&logoColor=4dd8ff&labelColor=121212)  
 Framework for building the user interface and managing application logic.
 
-![Redux Toolkit](<https://img.shields.io/badge/Redux_(_toolkit_)-7033cc?logo=redux&logoColor=895cd6&labelColor=121212>)  
+![Redux Toolkit](https://img.shields.io/badge/Redux_(_toolkit_)-7033cc?logo=redux&logoColor=895cd6&labelColor=121212)  
 Utility library used to simplify Redux logic, including store setup, reducing boilerplate code, and managing slices of state.
 
 ![Redux Saga](https://img.shields.io/badge/Redux_Saga-76E34F?logo=reduxsaga&logoColor=76E34F&labelColor=121212)  
 Middleware used for handling asynchronous actions in Redux.
 
-![React Hooks](<https://img.shields.io/badge/React_(_hooks_)-4dd8ff?logo=react&logoColor=4dd8ff&labelColor=121212>)  
+![React Hooks](https://img.shields.io/badge/React_(_hooks_)-4dd8ff?logo=react&logoColor=4dd8ff&labelColor=121212)  
 Utilized for managing component state and lifecycle methods.
 
 ![Styled Components](https://img.shields.io/badge/Styled%20Components-F91F68?logo=styledcomponents&logoColor=fa3879&labelColor=121212)  
@@ -46,7 +46,7 @@ Utilized for quickly bootstrapping a new React project.
 ![GitHub API](https://img.shields.io/badge/GitHub_API-1f1f1f?logo=github&logoColor=fff&labelColor=121212)  
 Utilized for fetching the latest data from repositories.
 
-![Axios](https://img.shields.io/badge/Axios-5f26d0?logo=axios&logoColor=8253df&labelColor=121212)  
+![Axios](https://img.shields.io/badge/Axios-7033cc?logo=axios&logoColor=8253df&labelColor=121212)  
 Used for making HTTP requests to external APIs.
 
 ![npm](https://img.shields.io/badge/npm-d00908?logo=npm&logoColor=f00909&labelColor=121212)  
