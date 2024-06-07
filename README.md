@@ -33,7 +33,7 @@ _This [personal homepage](https://myprojects.pl/) project is a dynamic portfolio
 
 ##### ![_Redux ( toolkit )](<https://img.shields.io/badge/Redux_(_toolkit_)-7033cc?style=plastic&logo=redux&logoColor=895cd6&labelColor=121212>)<br>Utility library used to simplify Redux logic, including store setup, reducing boilerplate code, and managing slices of state.
 
-###### ![_Redux Saga](https://img.shields.io/badge/Redux_Saga-76E34F?style=plastic&logo=reduxsaga&logoColor=76E34F&labelColor=121212)<br>Middleware used for handling asynchronous actions in Redux.
+##### ![_Redux Saga](https://img.shields.io/badge/Redux_Saga-76E34F?style=plastic&logo=reduxsaga&logoColor=76E34F&labelColor=121212)<br>Middleware used for handling asynchronous actions in Redux.
 
 ##### ![_React ( hooks )](<https://img.shields.io/badge/React_(_hooks_)-4dd8ff?style=plastic&logo=react&logoColor=4dd8ff&labelColor=121212>)<br>Utilized for managing component state and lifecycle methods.
 
