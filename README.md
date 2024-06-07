@@ -4,6 +4,7 @@
 _This [personal homepage](https://myprojects.pl/) project is a dynamic portfolio and CV built using modern web technologies to showcase my skills and projects, directly fetched from GitHub using an API._
 
 ## _Presentation_ 🎬
+
 ![to-do list](/presentation.gif)
 
 ## _Application Overview_ 👀
@@ -28,25 +29,25 @@ _This [personal homepage](https://myprojects.pl/) project is a dynamic portfolio
 
 ## _Technologies Used_ 🛠️
 
-#### ![_React](https://img.shields.io/badge/React-4dd8ff?style=plastic&logo=react&logoColor=4dd8ff&labelColor=121212)<br>Framework for building the user interface and managing application logic.
+##### ![_React](https://img.shields.io/badge/React-4dd8ff?style=plastic&logo=react&logoColor=4dd8ff&labelColor=121212)<br>Framework for building the user interface and managing application logic.
 
-#### ![_Redux ( toolkit )](<https://img.shields.io/badge/Redux_(_toolkit_)-7033cc?style=plastic&logo=redux&logoColor=895cd6&labelColor=121212>)<br>Utility library used to simplify Redux logic, including store setup, reducing boilerplate code, and managing slices of state.
+##### ![_Redux ( toolkit )](<https://img.shields.io/badge/Redux_(_toolkit_)-7033cc?style=plastic&logo=redux&logoColor=895cd6&labelColor=121212>)<br>Utility library used to simplify Redux logic, including store setup, reducing boilerplate code, and managing slices of state.
 
-#### ![_Redux Saga](https://img.shields.io/badge/Redux_Saga-76E34F?style=plastic&logo=reduxsaga&logoColor=76E34F&labelColor=121212)<br>Middleware used for handling asynchronous actions in Redux.
+###### ![_Redux Saga](https://img.shields.io/badge/Redux_Saga-76E34F?style=plastic&logo=reduxsaga&logoColor=76E34F&labelColor=121212)<br>Middleware used for handling asynchronous actions in Redux.
 
-#### ![_React ( hooks )](<https://img.shields.io/badge/React_(_hooks_)-4dd8ff?style=plastic&logo=react&logoColor=4dd8ff&labelColor=121212>)<br>Utilized for managing component state and lifecycle methods.
+##### ![_React ( hooks )](<https://img.shields.io/badge/React_(_hooks_)-4dd8ff?style=plastic&logo=react&logoColor=4dd8ff&labelColor=121212>)<br>Utilized for managing component state and lifecycle methods.
 
-#### ![_Styled Components](https://img.shields.io/badge/Styled%20Components-F91F68?style=plastic&logo=styledcomponents&logoColor=fa3879&labelColor=121212)<br>Used for styling React components using CSS-in-JS.
+##### ![_Styled Components](https://img.shields.io/badge/Styled%20Components-F91F68?style=plastic&logo=styledcomponents&logoColor=fa3879&labelColor=121212)<br>Used for styling React components using CSS-in-JS.
 
-#### ![_Create React App](https://img.shields.io/badge/Create_React_App-4dd8ff?style=plastic&logo=create-react-app&logoColor=4dd8ff&labelColor=121212)<br>Utilized for quickly bootstrapping a new React project.
+##### ![_Create React App](https://img.shields.io/badge/Create_React_App-4dd8ff?style=plastic&logo=create-react-app&logoColor=4dd8ff&labelColor=121212)<br>Utilized for quickly bootstrapping a new React project.
 
-#### ![_GitHub API](https://img.shields.io/badge/GitHub_API-1f1f1f?style=plastic&logo=github&logoColor=fff&labelColor=121212)<br>Utilized for fetching the latest data from repositories.
+##### ![_GitHub API](https://img.shields.io/badge/GitHub_API-1f1f1f?style=plastic&logo=github&logoColor=fff&labelColor=121212)<br>Utilized for fetching the latest data from repositories.
 
-#### ![_Axios](https://img.shields.io/badge/Axios-7033cc?style=plastic&logo=axios&logoColor=8253df&labelColor=121212)<br>Used for making HTTP requests to external APIs.
+##### ![_Axios](https://img.shields.io/badge/Axios-7033cc?style=plastic&logo=axios&logoColor=8253df&labelColor=121212)<br>Used for making HTTP requests to external APIs.
 
-#### ![_npm](https://img.shields.io/badge/npm-d00908?style=plastic&logo=npm&logoColor=f00909&labelColor=121212)<br>Utilized for managing project dependencies and scripts.
+##### ![_npm](https://img.shields.io/badge/npm-d00908?style=plastic&logo=npm&logoColor=f00909&labelColor=121212)<br>Utilized for managing project dependencies and scripts.
 
-#### ![_Figma](https://img.shields.io/badge/Figma-f25425?style=plastic&logo=figma&logoColor=f25425&labelColor=121212)<br>Utilized the Figma project as a basis for creating the application.
+##### ![_Figma](https://img.shields.io/badge/Figma-f25425?style=plastic&logo=figma&logoColor=f25425&labelColor=121212)<br>Utilized the Figma project as a basis for creating the application.
 
 ## _Installation and Configuration_ 💻
 
