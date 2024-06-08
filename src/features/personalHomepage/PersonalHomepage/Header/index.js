@@ -15,9 +15,11 @@ import { Emoji } from "../Emoji";
 import { ButtonLink } from "../ButtonLink";
 import { Tooltip } from "../Tooltip";
 import { useState } from "react";
+import { personData } from "../personData";
 
-export const Header = ({ name, email, description }) => {
+export const Header = () => {
   const [hovered, setHovered] = useState();
+  const { name, email, description } = personData;
 
   return (
     <Wrapper>

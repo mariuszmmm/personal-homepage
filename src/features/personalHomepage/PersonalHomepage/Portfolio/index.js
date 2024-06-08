@@ -10,11 +10,13 @@ import {
 } from "../../personalHomepageSlice";
 import { useEffect } from "react";
 import { Content } from "./Content";
+import { personData } from "../personData";
 
-export const Portfolio = ({ githubData }) => {
+export const Portfolio = () => {
   const dispatch = useDispatch();
   const state = useSelector(selectState);
   const repositories = useSelector(selectRepositories);
+  const { githubData } = personData;
 
   useEffect(() => {
     dispatch(fetchRepositories(githubData));

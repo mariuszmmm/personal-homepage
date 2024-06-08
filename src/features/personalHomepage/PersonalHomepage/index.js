@@ -9,13 +9,12 @@ import tools from "./images/tools.png";
 import rocket from "./images/rocket.png";
 
 export const PersonalHomepage = () => {
-  const { name, email, description, skills, toLearn, githubData, invitation } =
-    personData;
+  const { skills, toLearn } = personData;
 
   return (
     <Wrapper>
       <ThemeSwitch />
-      <Header name={name} email={email} description={description} />
+      <Header />
       <main>
         <Skills title="My skillset includes" src={tools} skills={skills} line />
         <Skills
@@ -23,9 +22,9 @@ export const PersonalHomepage = () => {
           src={rocket}
           skills={toLearn}
         />
-        <Portfolio githubData={githubData} />
+        <Portfolio />
       </main>
-      <Footer email={email} invitation={invitation} />
+      <Footer />
     </Wrapper>
   );
 };
