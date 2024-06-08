@@ -4,13 +4,13 @@ import { Normalize } from "styled-normalize";
 import GlobalStyle from "./GlobalStyle";
 import { PersonalHomepage } from "../../features/personalHomepage/PersonalHomepage";
 import { useSelector } from "react-redux";
-import { selectMode } from "../../common/Mode/modeSlice";
+import { selectDarkTheme } from "../../common/themeSlice";
 
 const App = () => {
-  const mode = useSelector(selectMode);
+  const isDarkTheme = useSelector(selectDarkTheme);
 
   return (
-    <ThemeProvider theme={mode === "dark" ? themeDark : themeLight}>
+    <ThemeProvider theme={isDarkTheme ? themeDark : themeLight}>
       <Normalize />
       <GlobalStyle />
       <PersonalHomepage />

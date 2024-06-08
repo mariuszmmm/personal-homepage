@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import modeReducer from "../common/Mode/modeSlice";
+import themeReducer from "../common/themeSlice";
 import personalHomepageReducer from "../features/personalHomepage/personalHomepageSlice";
 import createSagaMiddleware from "redux-saga";
 import personalHomepageSaga from "../features/personalHomepage/personalHomepageSaga";
@@ -8,7 +8,7 @@ const sagaMiddleware = createSagaMiddleware();
 
 export default configureStore({
   reducer: {
-    mode: modeReducer,
+    theme: themeReducer,
     personalHomepage: personalHomepageReducer,
   },
 

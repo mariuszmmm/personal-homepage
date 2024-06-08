@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 import { ReactComponent as SunIcon } from "./sunIcon.svg";
 
-export const ModeContainer = styled.button`
+export const Wrapper = styled.button`
   display: flex;
   align-items: center;
   align-self: flex-end;
@@ -25,7 +25,7 @@ export const ModeContainer = styled.button`
   }
 `;
 
-export const ModeInfo = styled.span`
+export const ThemeInfo = styled.span`
   text-transform: uppercase;
   color: ${({ theme }) => theme.switchColor};
   font-weight: ${({ theme }) => theme.fontWeight.bold};
@@ -43,7 +43,7 @@ export const Switch = styled.div`
   width: 48px;
   height: 26px;
   padding: 3px;
-  background-color: ${({ theme }) => theme.colors.modeSwitch.background};
+  background-color: ${({ theme }) => theme.colors.themeSwitch.background};
   border: 1px solid;
   border-radius: 13px;
 `;
@@ -66,5 +66,5 @@ export const IconWrapper = styled.div`
 `;
 
 export const Icon = styled(SunIcon)`
-  color: ${({ theme }) => theme.colors.modeSwitch.text};
+  color: ${({ theme }) => theme.colors.themeSwitch.text};
 `;

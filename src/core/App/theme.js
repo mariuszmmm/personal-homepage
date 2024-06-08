@@ -42,7 +42,7 @@ export const themeLight = {
     textSecendary: colorNames.mineShaf,
     backgroundPrimary: colorNames.whiteLilac,
     backgroundSecendary: colorNames.white,
-    modeSwitch: {
+    themeSwitch: {
       text: colorNames.white,
       background: colorNames.iron,
     },
@@ -78,7 +78,7 @@ export const themeDark = {
     textSecendary: colorNames.white,
     backgroundPrimary: colorNames.mineShaf,
     backgroundSecendary: colorNames.mineShaf_2,
-    modeSwitch: {
+    themeSwitch: {
       text: colorNames.mineShaf,
       background: colorNames.doveGray,
     },

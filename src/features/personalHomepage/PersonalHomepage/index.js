@@ -1,5 +1,5 @@
 import { Wrapper } from "./Wrapper";
-import { Mode } from "../../../common/Mode";
+import { ThemeSwitch } from "../../../common/ThemeSwitch";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { Skills } from "./Skills";
@@ -14,7 +14,7 @@ export const PersonalHomepage = () => {
 
   return (
     <Wrapper>
-      <Mode />
+      <ThemeSwitch />
       <Header name={name} email={email} description={description} />
       <main>
         <Skills title="My skillset includes" src={tools} skills={skills} line />
