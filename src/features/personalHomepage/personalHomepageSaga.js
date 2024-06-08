@@ -1,5 +1,5 @@
 import { call, delay, put, takeEvery } from "redux-saga/effects";
-import { getRepositories } from "./personalHomepageAPI";
+import { getRepositories } from "../../api/getRepositories";
 import {
   fetchError,
   fetchRepositories,
