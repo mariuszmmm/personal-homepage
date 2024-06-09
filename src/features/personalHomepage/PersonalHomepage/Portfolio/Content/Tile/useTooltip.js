@@ -1,41 +1,31 @@
-export const useTooltip = (setDemoIsHovered, setCodeIsHovered) => {
-  let hoverDemoTimeout;
-  let hoverCodeTimeout;
+export const useTooltip = (setState) => {
+  let demoTimeout;
+  let codeTimeout;
 
   const handleDemoMouseEnter = () => {
-    hoverDemoTimeout = setTimeout(() => {
-      setDemoIsHovered(true);
+    demoTimeout = setTimeout(() => {
+      setState((state) => ({ ...state, isDemoLinkHovered: true }));
     }, 500);
-
-    setTimeout(() => {
-      setDemoIsHovered(false);
-    }, 5000);
   };
 
   const handleCodeMouseEnter = () => {
-    hoverCodeTimeout = setTimeout(() => {
-      setCodeIsHovered(true);
+    codeTimeout = setTimeout(() => {
+      setState((state) => ({ ...state, isCodeLinkHovered: true }));
     }, 500);
-
-    setTimeout(() => {
-      setCodeIsHovered(false);
-    }, 5000);
   };
 
   const handleDemoMouseLeave = () => {
-    clearTimeout(hoverDemoTimeout);
-
+    clearTimeout(demoTimeout);
     setTimeout(() => {
-      setDemoIsHovered(false);
-    }, 500);
+      setState((state) => ({ ...state, isDemoLinkHovered: false }));
+    }, 200);
   };
 
   const handleCodeMouseLeave = () => {
-    clearTimeout(hoverCodeTimeout);
-
+    clearTimeout(codeTimeout);
     setTimeout(() => {
-      setCodeIsHovered(false);
-    }, 500);
+      setState((state) => ({ ...state, isCodeLinkHovered: false }));
+    }, 200);
   };
 
   return {
