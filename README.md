@@ -5,7 +5,7 @@ _This [personal homepage](https://myprojects.pl/) project is a dynamic portfolio
 
 ## _Presentation_ 🎬
 
-![to-do list](/presentation.gif)
+![to-do list](/assets/presentation.gif)
 
 ## _Application Overview_ 👀
 
