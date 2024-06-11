@@ -24,7 +24,7 @@ export const Tile = ({ repo, index }) => {
 
   useEffect(() => {
     const checkOversize = (ref) =>
-      ref.current.scrollWidth > ref.current.clientWidth;
+      ref.current?.scrollWidth > ref.current?.clientWidth;
 
     setState((state) => ({
       ...state,
