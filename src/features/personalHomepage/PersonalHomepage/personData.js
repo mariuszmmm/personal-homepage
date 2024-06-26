@@ -8,10 +8,24 @@ export const personData = {
   githubData: {
     username: "mariuszmmm",
     topic: "public-repo",
+    favoriteList: [
+      "movies-browser",
+      "personal-homepage",
+      "to-do-list-react",
+      "to-do-list",
+      "currency-converter-react",
+      "currency-converter",
+      "calculator-react",
+      "photo-catalog",
+      "web-development",
+      "bieszczady",
+    ],
   },
   socialLinks: {
     github: "https://github.com/mariuszmmm",
     linkedin: "https://www.linkedin.com/in/mariuszmatusiewicz",
+    facebook: "https://www.facebook.com/profile.php?id=100087408762484",
+    instagram: null,
   },
   skills: [
     "Semantic and accessible HTML",
